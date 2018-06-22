@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MKMapViewSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="W5o-0d-pLh">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="bdL-4c-wDk"/>
+                                </connections>
+                            </mapView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pJc-iB-NFw">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OXX-tU-Pmu">
+                                        <rect key="frame" x="337" y="7" width="30" height="30"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Pin">
+                                                    <attributes>
+                                                        <font key="NSFont" metaFont="system" size="15"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <connections>
+                                            <action selector="TapPinButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ebZ-jo-6kL"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="9AI-Ao-TIC"/>
+                                    <constraint firstItem="OXX-tU-Pmu" firstAttribute="centerY" secondItem="pJc-iB-NFw" secondAttribute="centerY" id="E7k-zw-shh"/>
+                                    <constraint firstAttribute="trailing" secondItem="OXX-tU-Pmu" secondAttribute="trailing" constant="8" id="NAK-2B-qvB"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="pJc-iB-NFw" firstAttribute="top" secondItem="W5o-0d-pLh" secondAttribute="bottom" id="6bE-yo-De3"/>
+                            <constraint firstItem="pJc-iB-NFw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Kqx-rj-Mbt"/>
+                            <constraint firstItem="pJc-iB-NFw" firstAttribute="top" secondItem="W5o-0d-pLh" secondAttribute="bottom" id="RVp-P2-97Y"/>
+                            <constraint firstItem="pJc-iB-NFw" firstAttribute="top" secondItem="W5o-0d-pLh" secondAttribute="bottom" id="dkq-u6-bxB"/>
+                            <constraint firstItem="W5o-0d-pLh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gCd-XQ-dpr"/>
+                            <constraint firstItem="W5o-0d-pLh" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="isB-wl-u3Q"/>
+                            <constraint firstItem="W5o-0d-pLh" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="oJz-Se-ryu"/>
+                            <constraint firstItem="pJc-iB-NFw" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="qvz-w7-97X"/>
+                            <constraint firstItem="pJc-iB-NFw" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="rIv-8n-Pfu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="W5o-0d-pLh" id="gQ0-KM-de9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

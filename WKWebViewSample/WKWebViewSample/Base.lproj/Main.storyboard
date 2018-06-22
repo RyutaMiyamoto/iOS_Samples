@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WKWebViewSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rQJ-EJ-Itg">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GXq-qG-OCS">
+                                        <rect key="frame" x="8" y="7" width="34" height="30"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Load">
+                                                    <attributes>
+                                                        <font key="NSFont" metaFont="system" size="15"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <connections>
+                                            <action selector="tapLoadButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Kx-xk-CbE"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SyX-CN-ajH">
+                                        <rect key="frame" x="58" y="7" width="51" height="30"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Update">
+                                                    <attributes>
+                                                        <font key="NSFont" metaFont="system" size="15"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <connections>
+                                            <action selector="tapUpdateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qI6-6b-6al"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="blC-fj-9fM">
+                                        <rect key="frame" x="261" y="7" width="34" height="30"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Back">
+                                                    <attributes>
+                                                        <font key="NSFont" metaFont="system" size="15"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <connections>
+                                            <action selector="tapBackButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bL9-7D-2v4"/>
+                                        </connections>
+                                    </button>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bcu-Ej-oDC">
+                                        <rect key="frame" x="311" y="7" width="56" height="30"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Forward">
+                                                    <attributes>
+                                                        <font key="NSFont" metaFont="system" size="15"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <connections>
+                                            <action selector="tapForwardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4g6-bl-Ntg"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="bcu-Ej-oDC" firstAttribute="centerY" secondItem="rQJ-EJ-Itg" secondAttribute="centerY" id="4bd-VQ-LU6"/>
+                                    <constraint firstItem="SyX-CN-ajH" firstAttribute="leading" secondItem="rQJ-EJ-Itg" secondAttribute="leading" constant="58" id="6WS-Kn-mj3"/>
+                                    <constraint firstAttribute="height" constant="44" id="Rmw-BA-hhZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="bcu-Ej-oDC" secondAttribute="trailing" constant="8" id="U6l-HM-2DZ"/>
+                                    <constraint firstItem="GXq-qG-OCS" firstAttribute="centerY" secondItem="rQJ-EJ-Itg" secondAttribute="centerY" id="Yie-AJ-M7F"/>
+                                    <constraint firstItem="blC-fj-9fM" firstAttribute="centerY" secondItem="rQJ-EJ-Itg" secondAttribute="centerY" id="em8-iz-hYA"/>
+                                    <constraint firstItem="SyX-CN-ajH" firstAttribute="centerY" secondItem="rQJ-EJ-Itg" secondAttribute="centerY" id="gn5-BV-zhv"/>
+                                    <constraint firstAttribute="trailing" secondItem="blC-fj-9fM" secondAttribute="trailing" constant="80" id="uAj-cA-M8Z"/>
+                                    <constraint firstItem="GXq-qG-OCS" firstAttribute="leading" secondItem="rQJ-EJ-Itg" secondAttribute="leading" constant="8" id="yiO-H7-GZK"/>
+                                </constraints>
+                            </view>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tup-e4-z6e">
+                                <rect key="frame" x="0.0" y="20" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Tup-e4-z6e" secondAttribute="trailing" id="RlN-iu-iLb"/>
+                            <constraint firstItem="Tup-e4-z6e" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="c5b-QJ-VaW"/>
+                            <constraint firstItem="rQJ-EJ-Itg" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="cTm-w6-qcf"/>
+                            <constraint firstItem="rQJ-EJ-Itg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="diT-2l-vxg"/>
+                            <constraint firstItem="rQJ-EJ-Itg" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="kSB-sh-brA"/>
+                            <constraint firstItem="Tup-e4-z6e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="o9k-pT-ZKA"/>
+                            <constraint firstItem="rQJ-EJ-Itg" firstAttribute="top" secondItem="Tup-e4-z6e" secondAttribute="bottom" id="qQY-g8-hMV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="backButton" destination="blC-fj-9fM" id="HvL-b4-kpi"/>
+                        <outlet property="forwardButton" destination="bcu-Ej-oDC" id="80Y-iQ-eAE"/>
+                        <outlet property="updateButton" destination="SyX-CN-ajH" id="R71-a3-hjH"/>
+                        <outlet property="wkWebView" destination="Tup-e4-z6e" id="7qw-xM-XFu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
