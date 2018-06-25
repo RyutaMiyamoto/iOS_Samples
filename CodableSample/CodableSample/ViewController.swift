@@ -11,33 +11,114 @@ import UIKit
 class ViewController: UIViewController {
     
     struct User: Codable {
-        let login: String
-        let id: Int
-        let node_id: String
-        let avatar_url: String
-        let gravatar_id: String
-        let url: String
-        let html_url: String
-        let followers_url: String
-        let following_url: String
-        let gists_url: String
-        let starred_url: String
-        let subscriptions_url: String
-        let organizations_url: String
-        let repos_url: String
-        let events_url: String
-        let received_events_url: String
-        let type: String
-        let site_admin: Bool
+        let _login: String?
+        let _id: Int?
+        let _nodeId: String?
+        let _avatarUrl: String?
+        let _gravatarId: String?
+        let _url: String?
+        let _htmlUrl: String?
+        let _followersUrl: String?
+        let _followingUrl: String?
+        let _gistsUrl: String?
+        let _starredUrl: String?
+        let _subscriptionsUrl: String?
+        let _organizationsUrl: String?
+        let _reposUrl: String?
+        let _eventsUrl: String?
+        let _receivedEventsUrl: String?
+        let _type: String?
+        let _siteAdmin: Bool?
+        
+        var login: String {
+            return _login ?? ""
+        }
+        var id: Int {
+            return _id ?? 0
+        }
+        var nodeId: String {
+            return _nodeId ?? ""
+        }
+        var avatarUrl: String {
+            return _avatarUrl ?? ""
+        }
+        var gravatarId: String {
+            return _gravatarId ?? ""
+        }
+        var url: String {
+            return _url ?? ""
+        }
+        var htmlUrl: String {
+            return _htmlUrl ?? ""
+        }
+        var followersUrl: String {
+            return _followersUrl ?? ""
+        }
+        var followingUrl: String {
+            return _followingUrl ?? ""
+        }
+        var gistsUrl: String {
+            return _gistsUrl ?? ""
+        }
+        var starredUrl: String {
+            return _starredUrl ?? ""
+        }
+        var subscriptionsUrl: String {
+            return _subscriptionsUrl ?? ""
+        }
+        var organizationsUrl: String {
+            return _organizationsUrl ?? ""
+        }
+        var reposUrl: String {
+            return _reposUrl ?? ""
+        }
+        var eventsUrl: String {
+            return _eventsUrl ?? ""
+        }
+        var receivedEventsUrl: String {
+            return _receivedEventsUrl ?? ""
+        }
+        var type: String {
+            return _type ?? ""
+        }
+        var siteAdmin: Bool {
+            return _siteAdmin ?? false
+        }
+        
+        enum CodingKeys: String, CodingKey {
+            case _login = "login"
+            case _id = "id"
+            case _nodeId = "node_id"
+            case _avatarUrl = "avatar_url"
+            case _gravatarId = "gravatar_id"
+            case _url = "url"
+            case _htmlUrl = "html_url"
+            case _followersUrl = "followers_url"
+            case _followingUrl = "following_url"
+            case _gistsUrl = "gists_url"
+            case _starredUrl = "starred_url"
+            case _subscriptionsUrl = "subscriptions_url"
+            case _organizationsUrl = "organizations_url"
+            case _reposUrl = "repos_url"
+            case _eventsUrl = "events_url"
+            case _receivedEventsUrl = "received_events_url"
+            case _type = "type"
+            case _siteAdmin = "site_admin"
+        }
     }
     
     @IBAction func tapGetJsonButton(_ sender: UIButton) {
         let requestController = MyRequestController()
         requestController.sendRequest({ data in
+            guard let data = data else { return }
             let decoder: JSONDecoder = JSONDecoder()
             do {
-                let json: [User] = try decoder.decode([User].self, from: data!)
-                print(json)
+                let users: [User] = try decoder.decode([User].self, from: data)
+                for user in users {
+                    print(user.login)
+                    print(user.id)
+                    print(user.nodeId)
+                }
             } catch {
                 print("error:", error.localizedDescription)
             }
