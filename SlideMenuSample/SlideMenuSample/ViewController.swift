@@ -12,16 +12,14 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var rightContainerView: UIView! {
         didSet {
-            guard let viewController = UIStoryboard(name: "Right", bundle: nil).instantiateViewController(withIdentifier: "Right")
-                as? RightViewController else { return }
+            guard let viewController = UIStoryboard(name: "Right", bundle: nil).instantiateInitialViewController() else { return }
             rightContainerView.frame = rightContainerViewInitFrame
             rightContainerView.addSubview(viewController.view)
         }
     }
     @IBOutlet weak var leftContainerView: UIView! {
         didSet {
-            guard let viewController = UIStoryboard(name: "Left", bundle: nil).instantiateViewController(withIdentifier: "Left")
-                as? LeftViewController else { return }
+            guard let viewController = UIStoryboard(name: "Left", bundle: nil).instantiateInitialViewController() else { return }
             leftContainerView.frame = leftContainerViewInitFrame
             leftContainerView.addSubview(viewController.view)
         }
