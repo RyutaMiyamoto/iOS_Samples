@@ -43,12 +43,12 @@ class ViewController: UIViewController, WKNavigationDelegate {
     // MARK: - WKNavigationDelegate
     
     func webView(_ webView: WKWebView, didStartProvisionalNavigation navigation: WKNavigation!) {
-        updateButton.isHidden = false
-        backButton.isHidden = !wkWebView.canGoBack
-        forwardButton.isHidden = !wkWebView.canGoForward
+        print("load Start")
     }
     
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
-        print("load Finish")
+        updateButton.isHidden = false
+        backButton.isHidden = !wkWebView.canGoBack
+        forwardButton.isHidden = !wkWebView.canGoForward
     }
 }
