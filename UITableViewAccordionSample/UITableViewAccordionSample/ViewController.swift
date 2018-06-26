@@ -16,27 +16,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }
     }
     
-    private var heightAtIndexPath: Dictionary<IndexPath, CGFloat> = [:]
-    
     private let dataSource: [UIColor] = [.red, .green, .blue, .cyan, .yellow, .magenta]
-    
-    // MARK: - UITableViewDelegate
-    
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return UITableViewAutomaticDimension
-    }
-    
-    func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
-        if let height: CGFloat = heightAtIndexPath[indexPath] {
-            return height
-        } else {
-            return UITableViewAutomaticDimension
-        }
-    }
-    
-    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        heightAtIndexPath[indexPath] = cell.frame.size.height
-    }
     
     // MARK: - UITableViewDataSource
     
