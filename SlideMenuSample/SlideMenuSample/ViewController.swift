@@ -25,11 +25,11 @@ class ViewController: UIViewController {
         }
     }
     
-    private let rightContainerViewInitFrame = CGRect(x: UIScreen.main.bounds.size.width, y: 0,
-                                                     width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height)
-    private let leftContainerViewInitFrame = CGRect(x: -UIScreen.main.bounds.size.width, y: 0,
-                                                    width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height)
-    private let containerViewDispFrame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height)
+    private let rightContainerViewInitFrame = CGRect(x: UIScreen.main.bounds.width, y: 0,
+                                                     width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+    private let leftContainerViewInitFrame = CGRect(x: -UIScreen.main.bounds.width, y: 0,
+                                                    width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+    private let containerViewDispFrame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
     
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesEnded(touches, with: event)

@@ -50,7 +50,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        heightAtIndexPath[indexPath] = cell.frame.size.height
+        heightAtIndexPath[indexPath] = cell.frame.height
     }
     
     // MARK: - UITableViewDataSource

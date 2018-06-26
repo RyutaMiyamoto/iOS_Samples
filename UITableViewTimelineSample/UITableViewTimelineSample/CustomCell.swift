@@ -28,7 +28,7 @@ class CustomCell: UITableViewCell {
         partnerTalkLabel.text = isMe ? "" : text
         
         guard let font = isMe ? meTalkLabel.font : partnerTalkLabel.font else { return }
-        cellHeight.constant = labelHeight(text: text, width: UIScreen.main.bounds.size.width - 60, font: font) + 24
+        cellHeight.constant = labelHeight(text: text, width: UIScreen.main.bounds.width - 60, font: font) + 24
     }
     
     private func labelHeight(text: String, width: CGFloat, font: UIFont, maxLine: Int = 0) -> CGFloat {

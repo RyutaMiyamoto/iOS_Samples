@@ -27,13 +27,13 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CustomCell", for: indexPath)
         let viewController = UIViewController()
-        viewController.view.frame = CGRect(x: 0, y: 0, width: view.frame.size.width, height: view.frame.size.height)
+        viewController.view.frame = CGRect(x: 0, y: 0, width: view.frame.width, height: view.frame.height)
         viewController.view.backgroundColor = dataSource[indexPath.row]
         cell.addSubview(viewController.view)
         return cell
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: view.frame.size.width, height: view.frame.size.height)
+        return CGSize(width: view.frame.width, height: view.frame.height)
     }
 }
