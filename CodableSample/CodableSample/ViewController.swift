@@ -11,24 +11,24 @@ import UIKit
 class ViewController: UIViewController {
     
     struct User: Codable {
-        let _login: String?
-        let _id: Int?
-        let _nodeId: String?
-        let _avatarUrl: String?
-        let _gravatarId: String?
-        let _url: String?
-        let _htmlUrl: String?
-        let _followersUrl: String?
-        let _followingUrl: String?
-        let _gistsUrl: String?
-        let _starredUrl: String?
-        let _subscriptionsUrl: String?
-        let _organizationsUrl: String?
-        let _reposUrl: String?
-        let _eventsUrl: String?
-        let _receivedEventsUrl: String?
-        let _type: String?
-        let _siteAdmin: Bool?
+        private let _login: String?
+        private let _id: Int?
+        private let _nodeId: String?
+        private let _avatarUrl: String?
+        private let _gravatarId: String?
+        private let _url: String?
+        private let _htmlUrl: String?
+        private let _followersUrl: String?
+        private let _followingUrl: String?
+        private let _gistsUrl: String?
+        private let _starredUrl: String?
+        private let _subscriptionsUrl: String?
+        private let _organizationsUrl: String?
+        private let _reposUrl: String?
+        private let _eventsUrl: String?
+        private let _receivedEventsUrl: String?
+        private let _type: String?
+        private let _siteAdmin: Bool?
         
         var login: String {
             return _login ?? ""
