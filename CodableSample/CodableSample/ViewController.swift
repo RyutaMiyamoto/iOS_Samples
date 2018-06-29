@@ -11,99 +11,67 @@ import UIKit
 class ViewController: UIViewController {
     
     struct User: Codable {
-        private let _login: String?
-        private let _id: Int?
-        private let _nodeId: String?
-        private let _avatarUrl: String?
-        private let _gravatarId: String?
-        private let _url: String?
-        private let _htmlUrl: String?
-        private let _followersUrl: String?
-        private let _followingUrl: String?
-        private let _gistsUrl: String?
-        private let _starredUrl: String?
-        private let _subscriptionsUrl: String?
-        private let _organizationsUrl: String?
-        private let _reposUrl: String?
-        private let _eventsUrl: String?
-        private let _receivedEventsUrl: String?
-        private let _type: String?
-        private let _siteAdmin: Bool?
         
-        var login: String {
-            return _login ?? ""
-        }
-        var id: Int {
-            return _id ?? 0
-        }
-        var nodeId: String {
-            return _nodeId ?? ""
-        }
-        var avatarUrl: String {
-            return _avatarUrl ?? ""
-        }
-        var gravatarId: String {
-            return _gravatarId ?? ""
-        }
-        var url: String {
-            return _url ?? ""
-        }
-        var htmlUrl: String {
-            return _htmlUrl ?? ""
-        }
-        var followersUrl: String {
-            return _followersUrl ?? ""
-        }
-        var followingUrl: String {
-            return _followingUrl ?? ""
-        }
-        var gistsUrl: String {
-            return _gistsUrl ?? ""
-        }
-        var starredUrl: String {
-            return _starredUrl ?? ""
-        }
-        var subscriptionsUrl: String {
-            return _subscriptionsUrl ?? ""
-        }
-        var organizationsUrl: String {
-            return _organizationsUrl ?? ""
-        }
-        var reposUrl: String {
-            return _reposUrl ?? ""
-        }
-        var eventsUrl: String {
-            return _eventsUrl ?? ""
-        }
-        var receivedEventsUrl: String {
-            return _receivedEventsUrl ?? ""
-        }
-        var type: String {
-            return _type ?? ""
-        }
-        var siteAdmin: Bool {
-            return _siteAdmin ?? false
-        }
+        let login: String
+        let id: Int
+        let nodeId: String
+        let avatarUrl: String
+        let gravatarId: String
+        let url: String
+        let htmlUrl: String
+        let followersUrl: String
+        let followingUrl: String
+        let gistsUrl: String
+        let starredUrl: String
+        let subscriptionsUrl: String
+        let organizationsUrl: String
+        let reposUrl: String
+        let eventsUrl: String
+        let receivedEventsUrl: String
+        let type: String
+        let siteAdmin: Bool
         
         enum CodingKeys: String, CodingKey {
-            case _login = "login"
-            case _id = "id"
-            case _nodeId = "node_id"
-            case _avatarUrl = "avatar_url"
-            case _gravatarId = "gravatar_id"
-            case _url = "url"
-            case _htmlUrl = "html_url"
-            case _followersUrl = "followers_url"
-            case _followingUrl = "following_url"
-            case _gistsUrl = "gists_url"
-            case _starredUrl = "starred_url"
-            case _subscriptionsUrl = "subscriptions_url"
-            case _organizationsUrl = "organizations_url"
-            case _reposUrl = "repos_url"
-            case _eventsUrl = "events_url"
-            case _receivedEventsUrl = "received_events_url"
-            case _type = "type"
-            case _siteAdmin = "site_admin"
+            case login
+            case id
+            case nodeId = "node_id"
+            case avatarUrl = "avatar_url"
+            case gravatarId = "gravatar_id"
+            case url
+            case htmlUrl = "html_url"
+            case followersUrl = "followers_url"
+            case followingUrl = "following_url"
+            case gistsUrl = "gists_url"
+            case starredUrl = "starred_url"
+            case subscriptionsUrl = "subscriptions_url"
+            case organizationsUrl = "organizations_url"
+            case reposUrl = "repos_url"
+            case eventsUrl = "events_url"
+            case receivedEventsUrl = "received_events_url"
+            case type
+            case siteAdmin = "site_admin"
+        }
+        
+        init(from decoder: Decoder) throws {
+            let container = try decoder.container(keyedBy: CodingKeys.self)
+            login = container.decode(forKey: CodingKeys.login, defaultValue: "")
+            id = container.decode(forKey: CodingKeys.id, defaultValue: 0)
+            nodeId = container.decode(forKey: CodingKeys.nodeId, defaultValue: "")
+            avatarUrl = container.decode(forKey: CodingKeys.avatarUrl, defaultValue: "")
+            gravatarId = container.decode(forKey: CodingKeys.gravatarId, defaultValue: "")
+            url = container.decode(forKey: CodingKeys.url, defaultValue: "")
+            htmlUrl = container.decode(forKey: CodingKeys.htmlUrl, defaultValue: "")
+            followersUrl = container.decode(forKey: CodingKeys.followersUrl, defaultValue: "")
+            followingUrl = container.decode(forKey: CodingKeys.followingUrl, defaultValue: "")
+            gistsUrl = container.decode(forKey: CodingKeys.gistsUrl, defaultValue: "")
+            starredUrl = container.decode(forKey: CodingKeys.starredUrl, defaultValue: "")
+            subscriptionsUrl = container.decode(forKey: CodingKeys.subscriptionsUrl, defaultValue: "")
+            organizationsUrl = container.decode(forKey: CodingKeys.organizationsUrl, defaultValue: "")
+            reposUrl = container.decode(forKey: CodingKeys.reposUrl, defaultValue: "")
+            eventsUrl = container.decode(forKey: CodingKeys.eventsUrl, defaultValue: "")
+            receivedEventsUrl = container.decode(forKey: CodingKeys.receivedEventsUrl, defaultValue: "")
+            type = container.decode(forKey: CodingKeys.type, defaultValue: "")
+            siteAdmin = container.decode(forKey: CodingKeys.siteAdmin, defaultValue: false)
         }
     }
     
@@ -177,5 +145,11 @@ extension URL {
     func appendingQueryParameters(_ parametersDictionary : Dictionary<String, String>) -> URL {
         let URLString : String = String(format: "%@?%@", self.absoluteString, parametersDictionary.queryParameters)
         return URL(string: URLString)!
+    }
+}
+
+extension KeyedDecodingContainer {
+    func decode<ResultType: Decodable>(forKey key: Key, defaultValue: ResultType) -> ResultType {
+        return (try? decode(ResultType.self, forKey: key)) ?? defaultValue
     }
 }
