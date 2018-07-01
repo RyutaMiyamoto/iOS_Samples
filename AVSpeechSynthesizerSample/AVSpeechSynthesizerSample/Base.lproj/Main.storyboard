@@ -35,7 +35,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="本日の東京の天気は、明け方から夜にかけては晴れのち曇り。深夜ごろから雨が降るでしょう。" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xMB-Lp-lFa">
-                                <rect key="frame" x="16" y="571" width="343" height="30"/>
+                                <rect key="frame" x="16" y="36" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -59,12 +59,12 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5LK-4V-f8r" secondAttribute="bottom" constant="20" id="21f-EV-314"/>
-                            <constraint firstItem="5LK-4V-f8r" firstAttribute="top" secondItem="xMB-Lp-lFa" secondAttribute="bottom" constant="16" id="EO0-zc-ba4"/>
                             <constraint firstItem="xMB-Lp-lFa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Lyn-Ab-whw"/>
                             <constraint firstItem="5LK-4V-f8r" firstAttribute="leading" secondItem="RZF-Pp-9hy" secondAttribute="trailing" constant="20" id="UGU-c9-HpC"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5LK-4V-f8r" secondAttribute="trailing" constant="16" id="Wwf-JR-s92"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xMB-Lp-lFa" secondAttribute="trailing" constant="16" id="XO1-GG-KNy"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="RZF-Pp-9hy" secondAttribute="bottom" constant="20" id="d0g-z7-Zan"/>
+                            <constraint firstItem="xMB-Lp-lFa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="m5z-l6-ZsW"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

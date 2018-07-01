@@ -22,13 +22,18 @@ class ViewController: UIViewController, AVSpeechSynthesizerDelegate {
         try? AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
     }
     
+    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
     @IBAction func tapPlayButton(_ sender: UIButton) {
         guard let text = textField.text else { return }
         synthesizer.stopSpeaking(at: AVSpeechBoundary.immediate)
         let utterance = AVSpeechUtterance(string: text)
         utterance.voice = AVSpeechSynthesisVoice(language: "ja-JP")
         utterance.rate = 0.5
-        utterance.pitchMultiplier = 0.5
+        utterance.pitchMultiplier = 1.5
+        utterance.volume = 0.5
         synthesizer.speak(utterance)
     }
     
