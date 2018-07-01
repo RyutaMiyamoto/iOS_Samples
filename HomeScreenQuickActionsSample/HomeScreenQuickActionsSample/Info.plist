@@ -41,5 +41,42 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIApplicationShortcutItems</key>
+	<array>
+		<dict>
+			<key>UIApplicationShortcutItemIconType</key>
+			<string>UIApplicationShortcutIconTypeSearch</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Title1</string>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string>SubTitle1</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>ItemType1</string>
+			<key>UIApplicationShortcutItemUserInfo</key>
+			<dict>
+				<key>id</key>
+				<string>id1</string>
+				<key>name</key>
+				<string>name1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemIconType</key>
+			<string>UIApplicationShortcutIconTypeCompose</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Title2</string>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string>SubTitle2</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>ItemType2</string>
+			<key>UIApplicationShortcutItemUserInfo</key>
+			<dict>
+				<key>id</key>
+				<string>id2</string>
+				<key>name</key>
+				<string>name2</string>
+			</dict>
+		</dict>
+	</array>
 </dict>
 </plist>
