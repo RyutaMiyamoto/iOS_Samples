@@ -7,64 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C1F8A09320DC7379003329FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F8A09220DC7379003329FE /* AppDelegate.swift */; };
-		C1F8A09520DC7379003329FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F8A09420DC7379003329FE /* ViewController.swift */; };
-		C1F8A09820DC7379003329FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F8A09620DC7379003329FE /* Main.storyboard */; };
-		C1F8A09A20DC737B003329FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1F8A09920DC737B003329FE /* Assets.xcassets */; };
-		C1F8A09D20DC737B003329FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F8A09B20DC737B003329FE /* LaunchScreen.storyboard */; };
-		C1F8A0A820DC737B003329FE /* MFMailComposeSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F8A0A720DC737B003329FE /* MFMailComposeSampleTests.swift */; };
-		C1F8A0B320DC737B003329FE /* MFMailComposeSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F8A0B220DC737B003329FE /* MFMailComposeSampleUITests.swift */; };
+		C1070BA7232FCBD2009E7BAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1070BA6232FCBD2009E7BAC /* AppDelegate.swift */; };
+		C1070BA9232FCBD2009E7BAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1070BA8232FCBD2009E7BAC /* ViewController.swift */; };
+		C1070BAC232FCBD2009E7BAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1070BAA232FCBD2009E7BAC /* Main.storyboard */; };
+		C1070BAE232FCBD3009E7BAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1070BAD232FCBD3009E7BAC /* Assets.xcassets */; };
+		C1070BB1232FCBD3009E7BAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1070BAF232FCBD3009E7BAC /* LaunchScreen.storyboard */; };
+		C1070BBC232FCBD3009E7BAC /* MFMailComposeSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1070BBB232FCBD3009E7BAC /* MFMailComposeSampleTests.swift */; };
+		C1070BC7232FCBD3009E7BAC /* MFMailComposeSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1070BC6232FCBD3009E7BAC /* MFMailComposeSampleUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C1F8A0A420DC737B003329FE /* PBXContainerItemProxy */ = {
+		C1070BB8232FCBD3009E7BAC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C1F8A08720DC7379003329FE /* Project object */;
+			containerPortal = C1070B9B232FCBD2009E7BAC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C1F8A08E20DC7379003329FE;
+			remoteGlobalIDString = C1070BA2232FCBD2009E7BAC;
 			remoteInfo = MFMailComposeSample;
 		};
-		C1F8A0AF20DC737B003329FE /* PBXContainerItemProxy */ = {
+		C1070BC3232FCBD3009E7BAC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C1F8A08720DC7379003329FE /* Project object */;
+			containerPortal = C1070B9B232FCBD2009E7BAC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C1F8A08E20DC7379003329FE;
+			remoteGlobalIDString = C1070BA2232FCBD2009E7BAC;
 			remoteInfo = MFMailComposeSample;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C1F8A08F20DC7379003329FE /* MFMailComposeSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFMailComposeSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1F8A09220DC7379003329FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C1F8A09420DC7379003329FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C1F8A09720DC7379003329FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C1F8A09920DC737B003329FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C1F8A09C20DC737B003329FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C1F8A09E20DC737B003329FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C1F8A0A320DC737B003329FE /* MFMailComposeSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MFMailComposeSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1F8A0A720DC737B003329FE /* MFMailComposeSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFMailComposeSampleTests.swift; sourceTree = "<group>"; };
-		C1F8A0A920DC737B003329FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C1F8A0AE20DC737B003329FE /* MFMailComposeSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MFMailComposeSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1F8A0B220DC737B003329FE /* MFMailComposeSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFMailComposeSampleUITests.swift; sourceTree = "<group>"; };
-		C1F8A0B420DC737B003329FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1070BA3232FCBD2009E7BAC /* MFMailComposeSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFMailComposeSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1070BA6232FCBD2009E7BAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1070BA8232FCBD2009E7BAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1070BAB232FCBD2009E7BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1070BAD232FCBD3009E7BAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1070BB0232FCBD3009E7BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1070BB2232FCBD3009E7BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1070BB7232FCBD3009E7BAC /* MFMailComposeSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MFMailComposeSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1070BBB232FCBD3009E7BAC /* MFMailComposeSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFMailComposeSampleTests.swift; sourceTree = "<group>"; };
+		C1070BBD232FCBD3009E7BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1070BC2232FCBD3009E7BAC /* MFMailComposeSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MFMailComposeSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1070BC6232FCBD3009E7BAC /* MFMailComposeSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFMailComposeSampleUITests.swift; sourceTree = "<group>"; };
+		C1070BC8232FCBD3009E7BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C1F8A08C20DC7379003329FE /* Frameworks */ = {
+		C1070BA0232FCBD2009E7BAC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1F8A0A020DC737B003329FE /* Frameworks */ = {
+		C1070BB4232FCBD3009E7BAC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1F8A0AB20DC737B003329FE /* Frameworks */ = {
+		C1070BBF232FCBD3009E7BAC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,53 +74,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C1F8A08620DC7379003329FE = {
+		C1070B9A232FCBD2009E7BAC = {
 			isa = PBXGroup;
 			children = (
-				C1F8A09120DC7379003329FE /* MFMailComposeSample */,
-				C1F8A0A620DC737B003329FE /* MFMailComposeSampleTests */,
-				C1F8A0B120DC737B003329FE /* MFMailComposeSampleUITests */,
-				C1F8A09020DC7379003329FE /* Products */,
+				C1070BA5232FCBD2009E7BAC /* MFMailComposeSample */,
+				C1070BBA232FCBD3009E7BAC /* MFMailComposeSampleTests */,
+				C1070BC5232FCBD3009E7BAC /* MFMailComposeSampleUITests */,
+				C1070BA4232FCBD2009E7BAC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C1F8A09020DC7379003329FE /* Products */ = {
+		C1070BA4232FCBD2009E7BAC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C1F8A08F20DC7379003329FE /* MFMailComposeSample.app */,
-				C1F8A0A320DC737B003329FE /* MFMailComposeSampleTests.xctest */,
-				C1F8A0AE20DC737B003329FE /* MFMailComposeSampleUITests.xctest */,
+				C1070BA3232FCBD2009E7BAC /* MFMailComposeSample.app */,
+				C1070BB7232FCBD3009E7BAC /* MFMailComposeSampleTests.xctest */,
+				C1070BC2232FCBD3009E7BAC /* MFMailComposeSampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C1F8A09120DC7379003329FE /* MFMailComposeSample */ = {
+		C1070BA5232FCBD2009E7BAC /* MFMailComposeSample */ = {
 			isa = PBXGroup;
 			children = (
-				C1F8A09220DC7379003329FE /* AppDelegate.swift */,
-				C1F8A09420DC7379003329FE /* ViewController.swift */,
-				C1F8A09620DC7379003329FE /* Main.storyboard */,
-				C1F8A09920DC737B003329FE /* Assets.xcassets */,
-				C1F8A09B20DC737B003329FE /* LaunchScreen.storyboard */,
-				C1F8A09E20DC737B003329FE /* Info.plist */,
+				C1070BA6232FCBD2009E7BAC /* AppDelegate.swift */,
+				C1070BA8232FCBD2009E7BAC /* ViewController.swift */,
+				C1070BAA232FCBD2009E7BAC /* Main.storyboard */,
+				C1070BAD232FCBD3009E7BAC /* Assets.xcassets */,
+				C1070BAF232FCBD3009E7BAC /* LaunchScreen.storyboard */,
+				C1070BB2232FCBD3009E7BAC /* Info.plist */,
 			);
 			path = MFMailComposeSample;
 			sourceTree = "<group>";
 		};
-		C1F8A0A620DC737B003329FE /* MFMailComposeSampleTests */ = {
+		C1070BBA232FCBD3009E7BAC /* MFMailComposeSampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				C1F8A0A720DC737B003329FE /* MFMailComposeSampleTests.swift */,
-				C1F8A0A920DC737B003329FE /* Info.plist */,
+				C1070BBB232FCBD3009E7BAC /* MFMailComposeSampleTests.swift */,
+				C1070BBD232FCBD3009E7BAC /* Info.plist */,
 			);
 			path = MFMailComposeSampleTests;
 			sourceTree = "<group>";
 		};
-		C1F8A0B120DC737B003329FE /* MFMailComposeSampleUITests */ = {
+		C1070BC5232FCBD3009E7BAC /* MFMailComposeSampleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				C1F8A0B220DC737B003329FE /* MFMailComposeSampleUITests.swift */,
-				C1F8A0B420DC737B003329FE /* Info.plist */,
+				C1070BC6232FCBD3009E7BAC /* MFMailComposeSampleUITests.swift */,
+				C1070BC8232FCBD3009E7BAC /* Info.plist */,
 			);
 			path = MFMailComposeSampleUITests;
 			sourceTree = "<group>";
@@ -128,13 +128,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C1F8A08E20DC7379003329FE /* MFMailComposeSample */ = {
+		C1070BA2232FCBD2009E7BAC /* MFMailComposeSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C1F8A0B720DC737B003329FE /* Build configuration list for PBXNativeTarget "MFMailComposeSample" */;
+			buildConfigurationList = C1070BCB232FCBD3009E7BAC /* Build configuration list for PBXNativeTarget "MFMailComposeSample" */;
 			buildPhases = (
-				C1F8A08B20DC7379003329FE /* Sources */,
-				C1F8A08C20DC7379003329FE /* Frameworks */,
-				C1F8A08D20DC7379003329FE /* Resources */,
+				C1070B9F232FCBD2009E7BAC /* Sources */,
+				C1070BA0232FCBD2009E7BAC /* Frameworks */,
+				C1070BA1232FCBD2009E7BAC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -142,69 +142,69 @@
 			);
 			name = MFMailComposeSample;
 			productName = MFMailComposeSample;
-			productReference = C1F8A08F20DC7379003329FE /* MFMailComposeSample.app */;
+			productReference = C1070BA3232FCBD2009E7BAC /* MFMailComposeSample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C1F8A0A220DC737B003329FE /* MFMailComposeSampleTests */ = {
+		C1070BB6232FCBD3009E7BAC /* MFMailComposeSampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C1F8A0BA20DC737B003329FE /* Build configuration list for PBXNativeTarget "MFMailComposeSampleTests" */;
+			buildConfigurationList = C1070BCE232FCBD3009E7BAC /* Build configuration list for PBXNativeTarget "MFMailComposeSampleTests" */;
 			buildPhases = (
-				C1F8A09F20DC737B003329FE /* Sources */,
-				C1F8A0A020DC737B003329FE /* Frameworks */,
-				C1F8A0A120DC737B003329FE /* Resources */,
+				C1070BB3232FCBD3009E7BAC /* Sources */,
+				C1070BB4232FCBD3009E7BAC /* Frameworks */,
+				C1070BB5232FCBD3009E7BAC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C1F8A0A520DC737B003329FE /* PBXTargetDependency */,
+				C1070BB9232FCBD3009E7BAC /* PBXTargetDependency */,
 			);
 			name = MFMailComposeSampleTests;
 			productName = MFMailComposeSampleTests;
-			productReference = C1F8A0A320DC737B003329FE /* MFMailComposeSampleTests.xctest */;
+			productReference = C1070BB7232FCBD3009E7BAC /* MFMailComposeSampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C1F8A0AD20DC737B003329FE /* MFMailComposeSampleUITests */ = {
+		C1070BC1232FCBD3009E7BAC /* MFMailComposeSampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C1F8A0BD20DC737B003329FE /* Build configuration list for PBXNativeTarget "MFMailComposeSampleUITests" */;
+			buildConfigurationList = C1070BD1232FCBD3009E7BAC /* Build configuration list for PBXNativeTarget "MFMailComposeSampleUITests" */;
 			buildPhases = (
-				C1F8A0AA20DC737B003329FE /* Sources */,
-				C1F8A0AB20DC737B003329FE /* Frameworks */,
-				C1F8A0AC20DC737B003329FE /* Resources */,
+				C1070BBE232FCBD3009E7BAC /* Sources */,
+				C1070BBF232FCBD3009E7BAC /* Frameworks */,
+				C1070BC0232FCBD3009E7BAC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C1F8A0B020DC737B003329FE /* PBXTargetDependency */,
+				C1070BC4232FCBD3009E7BAC /* PBXTargetDependency */,
 			);
 			name = MFMailComposeSampleUITests;
 			productName = MFMailComposeSampleUITests;
-			productReference = C1F8A0AE20DC737B003329FE /* MFMailComposeSampleUITests.xctest */;
+			productReference = C1070BC2232FCBD3009E7BAC /* MFMailComposeSampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C1F8A08720DC7379003329FE /* Project object */ = {
+		C1070B9B232FCBD2009E7BAC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0940;
-				LastUpgradeCheck = 0940;
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = RyutaMiyamoto;
 				TargetAttributes = {
-					C1F8A08E20DC7379003329FE = {
-						CreatedOnToolsVersion = 9.4.1;
+					C1070BA2232FCBD2009E7BAC = {
+						CreatedOnToolsVersion = 10.3;
 					};
-					C1F8A0A220DC737B003329FE = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = C1F8A08E20DC7379003329FE;
+					C1070BB6232FCBD3009E7BAC = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = C1070BA2232FCBD2009E7BAC;
 					};
-					C1F8A0AD20DC737B003329FE = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = C1F8A08E20DC7379003329FE;
+					C1070BC1232FCBD3009E7BAC = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = C1070BA2232FCBD2009E7BAC;
 					};
 				};
 			};
-			buildConfigurationList = C1F8A08A20DC7379003329FE /* Build configuration list for PBXProject "MFMailComposeSample" */;
+			buildConfigurationList = C1070B9E232FCBD2009E7BAC /* Build configuration list for PBXProject "MFMailComposeSample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -212,37 +212,37 @@
 				en,
 				Base,
 			);
-			mainGroup = C1F8A08620DC7379003329FE;
-			productRefGroup = C1F8A09020DC7379003329FE /* Products */;
+			mainGroup = C1070B9A232FCBD2009E7BAC;
+			productRefGroup = C1070BA4232FCBD2009E7BAC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C1F8A08E20DC7379003329FE /* MFMailComposeSample */,
-				C1F8A0A220DC737B003329FE /* MFMailComposeSampleTests */,
-				C1F8A0AD20DC737B003329FE /* MFMailComposeSampleUITests */,
+				C1070BA2232FCBD2009E7BAC /* MFMailComposeSample */,
+				C1070BB6232FCBD3009E7BAC /* MFMailComposeSampleTests */,
+				C1070BC1232FCBD3009E7BAC /* MFMailComposeSampleUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C1F8A08D20DC7379003329FE /* Resources */ = {
+		C1070BA1232FCBD2009E7BAC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1F8A09D20DC737B003329FE /* LaunchScreen.storyboard in Resources */,
-				C1F8A09A20DC737B003329FE /* Assets.xcassets in Resources */,
-				C1F8A09820DC7379003329FE /* Main.storyboard in Resources */,
+				C1070BB1232FCBD3009E7BAC /* LaunchScreen.storyboard in Resources */,
+				C1070BAE232FCBD3009E7BAC /* Assets.xcassets in Resources */,
+				C1070BAC232FCBD2009E7BAC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1F8A0A120DC737B003329FE /* Resources */ = {
+		C1070BB5232FCBD3009E7BAC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1F8A0AC20DC737B003329FE /* Resources */ = {
+		C1070BC0232FCBD3009E7BAC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -252,59 +252,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C1F8A08B20DC7379003329FE /* Sources */ = {
+		C1070B9F232FCBD2009E7BAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1F8A09520DC7379003329FE /* ViewController.swift in Sources */,
-				C1F8A09320DC7379003329FE /* AppDelegate.swift in Sources */,
+				C1070BA9232FCBD2009E7BAC /* ViewController.swift in Sources */,
+				C1070BA7232FCBD2009E7BAC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1F8A09F20DC737B003329FE /* Sources */ = {
+		C1070BB3232FCBD3009E7BAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1F8A0A820DC737B003329FE /* MFMailComposeSampleTests.swift in Sources */,
+				C1070BBC232FCBD3009E7BAC /* MFMailComposeSampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1F8A0AA20DC737B003329FE /* Sources */ = {
+		C1070BBE232FCBD3009E7BAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1F8A0B320DC737B003329FE /* MFMailComposeSampleUITests.swift in Sources */,
+				C1070BC7232FCBD3009E7BAC /* MFMailComposeSampleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C1F8A0A520DC737B003329FE /* PBXTargetDependency */ = {
+		C1070BB9232FCBD3009E7BAC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C1F8A08E20DC7379003329FE /* MFMailComposeSample */;
-			targetProxy = C1F8A0A420DC737B003329FE /* PBXContainerItemProxy */;
+			target = C1070BA2232FCBD2009E7BAC /* MFMailComposeSample */;
+			targetProxy = C1070BB8232FCBD3009E7BAC /* PBXContainerItemProxy */;
 		};
-		C1F8A0B020DC737B003329FE /* PBXTargetDependency */ = {
+		C1070BC4232FCBD3009E7BAC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C1F8A08E20DC7379003329FE /* MFMailComposeSample */;
-			targetProxy = C1F8A0AF20DC737B003329FE /* PBXContainerItemProxy */;
+			target = C1070BA2232FCBD2009E7BAC /* MFMailComposeSample */;
+			targetProxy = C1070BC3232FCBD3009E7BAC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C1F8A09620DC7379003329FE /* Main.storyboard */ = {
+		C1070BAA232FCBD2009E7BAC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C1F8A09720DC7379003329FE /* Base */,
+				C1070BAB232FCBD2009E7BAC /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C1F8A09B20DC737B003329FE /* LaunchScreen.storyboard */ = {
+		C1070BAF232FCBD3009E7BAC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C1F8A09C20DC737B003329FE /* Base */,
+				C1070BB0232FCBD3009E7BAC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -312,7 +312,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C1F8A0B520DC737B003329FE /* Debug */ = {
+		C1070BC9232FCBD3009E7BAC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -363,8 +363,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -372,7 +373,7 @@
 			};
 			name = Debug;
 		};
-		C1F8A0B620DC737B003329FE /* Release */ = {
+		C1070BCA232FCBD3009E7BAC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -417,8 +418,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -426,115 +428,119 @@
 			};
 			name = Release;
 		};
-		C1F8A0B820DC737B003329FE /* Debug */ = {
+		C1070BCC232FCBD3009E7BAC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5T96DT99L;
 				INFOPLIST_FILE = MFMailComposeSample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.pfslink.mltest.MFMailComposeSample;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.pfslink.MFMailComposeSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		C1F8A0B920DC737B003329FE /* Release */ = {
+		C1070BCD232FCBD3009E7BAC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5T96DT99L;
 				INFOPLIST_FILE = MFMailComposeSample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.pfslink.mltest.MFMailComposeSample;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.pfslink.MFMailComposeSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		C1F8A0BB20DC737B003329FE /* Debug */ = {
+		C1070BCF232FCBD3009E7BAC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5T96DT99L;
 				INFOPLIST_FILE = MFMailComposeSampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.pfslink.mltest.MFMailComposeSampleTests;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.pfslink.MFMailComposeSampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MFMailComposeSample.app/MFMailComposeSample";
 			};
 			name = Debug;
 		};
-		C1F8A0BC20DC737B003329FE /* Release */ = {
+		C1070BD0232FCBD3009E7BAC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5T96DT99L;
 				INFOPLIST_FILE = MFMailComposeSampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.pfslink.mltest.MFMailComposeSampleTests;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.pfslink.MFMailComposeSampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MFMailComposeSample.app/MFMailComposeSample";
 			};
 			name = Release;
 		};
-		C1F8A0BE20DC737B003329FE /* Debug */ = {
+		C1070BD2232FCBD3009E7BAC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5T96DT99L;
 				INFOPLIST_FILE = MFMailComposeSampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.pfslink.mltest.MFMailComposeSampleUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.pfslink.MFMailComposeSampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = MFMailComposeSample;
 			};
 			name = Debug;
 		};
-		C1F8A0BF20DC737B003329FE /* Release */ = {
+		C1070BD3232FCBD3009E7BAC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5T96DT99L;
 				INFOPLIST_FILE = MFMailComposeSampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.pfslink.mltest.MFMailComposeSampleUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.pfslink.MFMailComposeSampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = MFMailComposeSample;
 			};
@@ -543,43 +549,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C1F8A08A20DC7379003329FE /* Build configuration list for PBXProject "MFMailComposeSample" */ = {
+		C1070B9E232FCBD2009E7BAC /* Build configuration list for PBXProject "MFMailComposeSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1F8A0B520DC737B003329FE /* Debug */,
-				C1F8A0B620DC737B003329FE /* Release */,
+				C1070BC9232FCBD3009E7BAC /* Debug */,
+				C1070BCA232FCBD3009E7BAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C1F8A0B720DC737B003329FE /* Build configuration list for PBXNativeTarget "MFMailComposeSample" */ = {
+		C1070BCB232FCBD3009E7BAC /* Build configuration list for PBXNativeTarget "MFMailComposeSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1F8A0B820DC737B003329FE /* Debug */,
-				C1F8A0B920DC737B003329FE /* Release */,
+				C1070BCC232FCBD3009E7BAC /* Debug */,
+				C1070BCD232FCBD3009E7BAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C1F8A0BA20DC737B003329FE /* Build configuration list for PBXNativeTarget "MFMailComposeSampleTests" */ = {
+		C1070BCE232FCBD3009E7BAC /* Build configuration list for PBXNativeTarget "MFMailComposeSampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1F8A0BB20DC737B003329FE /* Debug */,
-				C1F8A0BC20DC737B003329FE /* Release */,
+				C1070BCF232FCBD3009E7BAC /* Debug */,
+				C1070BD0232FCBD3009E7BAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C1F8A0BD20DC737B003329FE /* Build configuration list for PBXNativeTarget "MFMailComposeSampleUITests" */ = {
+		C1070BD1232FCBD3009E7BAC /* Build configuration list for PBXNativeTarget "MFMailComposeSampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1F8A0BE20DC737B003329FE /* Debug */,
-				C1F8A0BF20DC737B003329FE /* Release */,
+				C1070BD2232FCBD3009E7BAC /* Debug */,
+				C1070BD3232FCBD3009E7BAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C1F8A08720DC7379003329FE /* Project object */;
+	rootObject = C1070B9B232FCBD2009E7BAC /* Project object */;
 }
