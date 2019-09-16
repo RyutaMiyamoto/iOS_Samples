@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  ImageFilterSample
 //
-//  Created by RyutaMiyamoto on 2018/06/22.
-//  Copyright © 2018 RyutaMiyamoto. All rights reserved.
+//  Created by RyutaMiyamoto on 2019/09/16.
+//  Copyright © 2019 RyutaMiyamoto. All rights reserved.
 //
 
 import UIKit
@@ -25,7 +25,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let ciContext:CIContext = CIContext(options: nil)
         guard let filteredImage = filter.outputImage,
             let imageRef = ciContext.createCGImage(filteredImage, from: filteredImage.extent) else { return UIImage() }
-        return UIImage(cgImage:imageRef, scale:1.0, orientation:UIImageOrientation.up)
+        return UIImage(cgImage:imageRef, scale:1.0, orientation:.up)
     }
     
     // MARK: - UITableViewDataSource
