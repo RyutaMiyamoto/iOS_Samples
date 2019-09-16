@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14269.12" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Dg6-93-feT">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="UNY-p9-6WL">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14252.5"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Left View Controller-->
-        <scene sceneID="EgH-EW-aRw">
+        <scene sceneID="ZIx-0t-Rnp">
             <objects>
-                <viewController storyboardIdentifier="Left" id="Dg6-93-feT" customClass="LeftViewController" customModule="SlideMenuSample" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" tag="200" contentMode="scaleToFill" id="b7l-7J-bbh">
+                <viewController id="UNY-p9-6WL" customClass="LeftViewController" customModule="SlideMenuSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" tag="200" contentMode="scaleToFill" id="DDp-mq-xgI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NKM-49-U2Q">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dve-v9-lka">
                                 <rect key="frame" x="0.0" y="0.0" width="225" height="667"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Left" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7dX-pw-wuX">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Left" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w2w-Ua-XtL">
                                         <rect key="frame" x="187" y="28" width="30" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -30,23 +30,23 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.74383503399999995" blue="0.72130102039999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="7dX-pw-wuX" secondAttribute="trailing" constant="8" id="4qp-jW-j99"/>
-                                    <constraint firstItem="7dX-pw-wuX" firstAttribute="top" secondItem="NKM-49-U2Q" secondAttribute="top" constant="28" id="7VL-L9-fl5"/>
-                                    <constraint firstAttribute="width" constant="225" id="E2v-la-9oZ"/>
+                                    <constraint firstAttribute="width" constant="225" id="gcp-Vo-Sh2"/>
+                                    <constraint firstItem="w2w-Ua-XtL" firstAttribute="top" secondItem="dve-v9-lka" secondAttribute="top" constant="28" id="kAh-ff-VG2"/>
+                                    <constraint firstAttribute="trailing" secondItem="w2w-Ua-XtL" secondAttribute="trailing" constant="8" id="lta-0q-dVs"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="NKM-49-U2Q" firstAttribute="leading" secondItem="RJB-zX-4ER" secondAttribute="leading" id="MXL-id-YYn"/>
-                            <constraint firstItem="NKM-49-U2Q" firstAttribute="top" secondItem="b7l-7J-bbh" secondAttribute="top" id="Y3a-GV-sBN"/>
-                            <constraint firstItem="NKM-49-U2Q" firstAttribute="bottom" secondItem="b7l-7J-bbh" secondAttribute="bottom" id="d0H-cj-gI1"/>
+                            <constraint firstItem="dve-v9-lka" firstAttribute="bottom" secondItem="DDp-mq-xgI" secondAttribute="bottom" id="JEg-JF-N7Q"/>
+                            <constraint firstItem="dve-v9-lka" firstAttribute="top" secondItem="DDp-mq-xgI" secondAttribute="top" id="cV2-kt-wsZ"/>
+                            <constraint firstItem="dve-v9-lka" firstAttribute="leading" secondItem="BuY-dk-c5K" secondAttribute="leading" id="t9m-qu-ZJG"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="RJB-zX-4ER"/>
+                        <viewLayoutGuide key="safeArea" id="BuY-dk-c5K"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DCF-7R-Tf9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Gi-So-NGR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="57" y="161"/>
+            <point key="canvasLocation" x="-60" y="138"/>
         </scene>
     </scenes>
 </document>
