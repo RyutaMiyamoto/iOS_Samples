@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  UIAlertControllerSample
 //
-//  Created by RyutaMiyamoto on 2018/06/22.
-//  Copyright © 2018 RyutaMiyamoto. All rights reserved.
+//  Created by RyutaMiyamoto on 2019/09/22.
+//  Copyright © 2019 RyutaMiyamoto. All rights reserved.
 //
 
 import UIKit
@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         show(style: .alert)
     }
     
-    func show(style: UIAlertControllerStyle) {
+    func show(style: UIAlertController.Style) {
         let alertController = UIAlertController(title: "title", message: nil, preferredStyle: style)
         let action1 = UIAlertAction(title: "action1", style: .default){ (action: UIAlertAction) in
             print("tap action1")
@@ -33,7 +33,6 @@ class ViewController: UIViewController {
         
         let cancelAction = UIAlertAction(title: "cancel", style: .cancel, handler: nil)
         alertController.addAction(cancelAction)
-        UIApplication.shared.keyWindow?.rootViewController?.present(alertController,animated: true,completion: nil)
+        present(alertController, animated: true, completion: nil)
     }
 }
-
