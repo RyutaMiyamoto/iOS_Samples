@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14269.12" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14252.5"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -18,10 +18,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rQJ-EJ-Itg">
+                            <wkWebView contentMode="scaleToFill" allowsBackForwardNavigationGestures="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0NR-Ua-SDR">
+                                <rect key="frame" x="0.0" y="20" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bzP-gg-zPb">
                                 <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GXq-qG-OCS">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ipA-Xo-4Nm">
                                         <rect key="frame" x="8" y="7" width="34" height="30"/>
                                         <state key="normal">
                                             <attributedString key="attributedTitle">
@@ -33,10 +41,10 @@
                                             </attributedString>
                                         </state>
                                         <connections>
-                                            <action selector="tapLoadButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Kx-xk-CbE"/>
+                                            <action selector="tapLoadButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N8t-DZ-kMP"/>
                                         </connections>
                                     </button>
-                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SyX-CN-ajH">
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RBw-hk-P9q">
                                         <rect key="frame" x="58" y="7" width="51" height="30"/>
                                         <state key="normal">
                                             <attributedString key="attributedTitle">
@@ -48,10 +56,10 @@
                                             </attributedString>
                                         </state>
                                         <connections>
-                                            <action selector="tapUpdateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qI6-6b-6al"/>
+                                            <action selector="tapUpdateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K29-wd-mc9"/>
                                         </connections>
                                     </button>
-                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="blC-fj-9fM">
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cb9-VS-pfQ">
                                         <rect key="frame" x="261" y="7" width="34" height="30"/>
                                         <state key="normal">
                                             <attributedString key="attributedTitle">
@@ -63,10 +71,10 @@
                                             </attributedString>
                                         </state>
                                         <connections>
-                                            <action selector="tapBackButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bL9-7D-2v4"/>
+                                            <action selector="tapBackButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2ht-fs-z0w"/>
                                         </connections>
                                     </button>
-                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bcu-Ej-oDC">
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m3h-JW-VQy">
                                         <rect key="frame" x="311" y="7" width="56" height="30"/>
                                         <state key="normal">
                                             <attributedString key="attributedTitle">
@@ -78,49 +86,42 @@
                                             </attributedString>
                                         </state>
                                         <connections>
-                                            <action selector="tapForwardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4g6-bl-Ntg"/>
+                                            <action selector="tapForwardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dOO-me-lIo"/>
                                         </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstItem="bcu-Ej-oDC" firstAttribute="centerY" secondItem="rQJ-EJ-Itg" secondAttribute="centerY" id="4bd-VQ-LU6"/>
-                                    <constraint firstItem="SyX-CN-ajH" firstAttribute="leading" secondItem="rQJ-EJ-Itg" secondAttribute="leading" constant="58" id="6WS-Kn-mj3"/>
-                                    <constraint firstAttribute="height" constant="44" id="Rmw-BA-hhZ"/>
-                                    <constraint firstAttribute="trailing" secondItem="bcu-Ej-oDC" secondAttribute="trailing" constant="8" id="U6l-HM-2DZ"/>
-                                    <constraint firstItem="GXq-qG-OCS" firstAttribute="centerY" secondItem="rQJ-EJ-Itg" secondAttribute="centerY" id="Yie-AJ-M7F"/>
-                                    <constraint firstItem="blC-fj-9fM" firstAttribute="centerY" secondItem="rQJ-EJ-Itg" secondAttribute="centerY" id="em8-iz-hYA"/>
-                                    <constraint firstItem="SyX-CN-ajH" firstAttribute="centerY" secondItem="rQJ-EJ-Itg" secondAttribute="centerY" id="gn5-BV-zhv"/>
-                                    <constraint firstAttribute="trailing" secondItem="blC-fj-9fM" secondAttribute="trailing" constant="80" id="uAj-cA-M8Z"/>
-                                    <constraint firstItem="GXq-qG-OCS" firstAttribute="leading" secondItem="rQJ-EJ-Itg" secondAttribute="leading" constant="8" id="yiO-H7-GZK"/>
+                                    <constraint firstItem="m3h-JW-VQy" firstAttribute="centerY" secondItem="bzP-gg-zPb" secondAttribute="centerY" id="2KH-BT-aW0"/>
+                                    <constraint firstItem="ipA-Xo-4Nm" firstAttribute="leading" secondItem="bzP-gg-zPb" secondAttribute="leading" constant="8" id="6PY-kB-V7Y"/>
+                                    <constraint firstItem="RBw-hk-P9q" firstAttribute="leading" secondItem="bzP-gg-zPb" secondAttribute="leading" constant="58" id="AY2-P7-OIb"/>
+                                    <constraint firstItem="ipA-Xo-4Nm" firstAttribute="centerY" secondItem="bzP-gg-zPb" secondAttribute="centerY" id="CIX-Vl-QQJ"/>
+                                    <constraint firstItem="RBw-hk-P9q" firstAttribute="centerY" secondItem="bzP-gg-zPb" secondAttribute="centerY" id="SxT-p5-eg4"/>
+                                    <constraint firstItem="Cb9-VS-pfQ" firstAttribute="centerY" secondItem="bzP-gg-zPb" secondAttribute="centerY" id="VrM-z1-wj9"/>
+                                    <constraint firstAttribute="trailing" secondItem="Cb9-VS-pfQ" secondAttribute="trailing" constant="80" id="ah2-o5-uIT"/>
+                                    <constraint firstAttribute="height" constant="44" id="dro-y8-TC0"/>
+                                    <constraint firstAttribute="trailing" secondItem="m3h-JW-VQy" secondAttribute="trailing" constant="8" id="fQQ-fL-sTG"/>
                                 </constraints>
                             </view>
-                            <wkWebView contentMode="scaleToFill" allowsBackForwardNavigationGestures="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tup-e4-z6e">
-                                <rect key="frame" x="0.0" y="20" width="375" height="603"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Tup-e4-z6e" secondAttribute="trailing" id="RlN-iu-iLb"/>
-                            <constraint firstItem="Tup-e4-z6e" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="c5b-QJ-VaW"/>
-                            <constraint firstItem="rQJ-EJ-Itg" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="cTm-w6-qcf"/>
-                            <constraint firstItem="rQJ-EJ-Itg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="diT-2l-vxg"/>
-                            <constraint firstItem="rQJ-EJ-Itg" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="kSB-sh-brA"/>
-                            <constraint firstItem="Tup-e4-z6e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="o9k-pT-ZKA"/>
-                            <constraint firstItem="rQJ-EJ-Itg" firstAttribute="top" secondItem="Tup-e4-z6e" secondAttribute="bottom" id="qQY-g8-hMV"/>
+                            <constraint firstItem="bzP-gg-zPb" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="6Hw-9B-iEv"/>
+                            <constraint firstItem="bzP-gg-zPb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="A5x-qC-bbJ"/>
+                            <constraint firstItem="0NR-Ua-SDR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="AjT-cR-FKQ"/>
+                            <constraint firstItem="0NR-Ua-SDR" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="GY9-YZ-VXh"/>
+                            <constraint firstItem="bzP-gg-zPb" firstAttribute="top" secondItem="0NR-Ua-SDR" secondAttribute="bottom" id="Shx-1e-kKi"/>
+                            <constraint firstItem="bzP-gg-zPb" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Vc3-S1-3WH"/>
+                            <constraint firstItem="bzP-gg-zPb" firstAttribute="top" secondItem="0NR-Ua-SDR" secondAttribute="bottom" id="WEf-Ca-Oag"/>
+                            <constraint firstItem="0NR-Ua-SDR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="abY-ZU-Z1S"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="backButton" destination="blC-fj-9fM" id="HvL-b4-kpi"/>
-                        <outlet property="forwardButton" destination="bcu-Ej-oDC" id="80Y-iQ-eAE"/>
-                        <outlet property="updateButton" destination="SyX-CN-ajH" id="R71-a3-hjH"/>
-                        <outlet property="wkWebView" destination="Tup-e4-z6e" id="7qw-xM-XFu"/>
+                        <outlet property="backButton" destination="Cb9-VS-pfQ" id="tjQ-8F-jlQ"/>
+                        <outlet property="forwardButton" destination="m3h-JW-VQy" id="hSd-im-6hp"/>
+                        <outlet property="updateButton" destination="RBw-hk-P9q" id="MuY-cR-Ezs"/>
+                        <outlet property="wkWebView" destination="0NR-Ua-SDR" id="F8Y-4b-BPu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
