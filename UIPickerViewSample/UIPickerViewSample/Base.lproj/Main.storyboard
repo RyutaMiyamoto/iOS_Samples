@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eha-k0-gti">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hMT-1o-0l3">
                                 <rect key="frame" x="219" y="244" width="40" height="30"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
@@ -30,10 +30,10 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="tapAfterButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2gq-ma-evd"/>
+                                    <action selector="tapAfterButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ua1-Qg-nrI"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iyI-6X-hn3">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h2p-ZL-12A">
                                 <rect key="frame" x="172" y="244" width="31" height="30"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
@@ -45,10 +45,10 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="tapNowButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0MP-Rg-cyO"/>
+                                    <action selector="tapNowButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QIq-Zj-zLz"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PwG-wK-NdZ">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uec-rs-zz7">
                                 <rect key="frame" x="116" y="244" width="40" height="30"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
@@ -60,45 +60,45 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="tapBeforeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LMu-xG-4uM"/>
+                                    <action selector="tapBeforeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lfF-hU-six"/>
                                 </connections>
                             </button>
-                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R4o-db-KHz">
-                                <rect key="frame" x="0.0" y="451" width="375" height="216"/>
-                                <connections>
-                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="flv-Lr-vzk"/>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="MFA-cW-ahj"/>
-                                </connections>
-                            </pickerView>
-                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="qkP-nK-w4b">
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="hOq-KP-u7T">
                                 <rect key="frame" x="0.0" y="20" width="375" height="216"/>
                                 <date key="date" timeIntervalSinceReferenceDate="551264176.58175504">
                                     <!--2018-06-21 08:56:16 +0000-->
                                 </date>
                                 <connections>
-                                    <action selector="changedDatePicker:" destination="BYZ-38-t0r" eventType="valueChanged" id="UXO-6u-2vT"/>
+                                    <action selector="changedDatePicker:" destination="BYZ-38-t0r" eventType="valueChanged" id="xel-To-FMn"/>
                                 </connections>
                             </datePicker>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6eP-qD-myM">
+                                <rect key="frame" x="0.0" y="451" width="375" height="216"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="WyB-0q-CsG"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="rYu-Va-qKv"/>
+                                </connections>
+                            </pickerView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="qkP-nK-w4b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="1u6-NA-WrC"/>
-                            <constraint firstItem="eha-k0-gti" firstAttribute="top" secondItem="qkP-nK-w4b" secondAttribute="bottom" constant="8" id="8PL-g0-dSq"/>
-                            <constraint firstItem="iyI-6X-hn3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Bhw-UQ-GEq"/>
-                            <constraint firstItem="qkP-nK-w4b" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Mfj-Li-zqv"/>
-                            <constraint firstItem="R4o-db-KHz" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="NSO-hV-A1v"/>
-                            <constraint firstItem="iyI-6X-hn3" firstAttribute="top" secondItem="qkP-nK-w4b" secondAttribute="bottom" constant="8" id="RSj-Xs-I3N"/>
-                            <constraint firstItem="PwG-wK-NdZ" firstAttribute="top" secondItem="qkP-nK-w4b" secondAttribute="bottom" constant="8" id="lzz-fI-IHp"/>
-                            <constraint firstItem="eha-k0-gti" firstAttribute="leading" secondItem="iyI-6X-hn3" secondAttribute="trailing" constant="16" id="tPX-GZ-1p4"/>
-                            <constraint firstItem="R4o-db-KHz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vdU-80-d6D"/>
-                            <constraint firstItem="R4o-db-KHz" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="wtA-dQ-H51"/>
-                            <constraint firstItem="iyI-6X-hn3" firstAttribute="leading" secondItem="PwG-wK-NdZ" secondAttribute="trailing" constant="16" id="xrj-Ix-h0c"/>
-                            <constraint firstItem="qkP-nK-w4b" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="yjE-7F-ol3"/>
+                            <constraint firstItem="6eP-qD-myM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0Ty-Yi-8C4"/>
+                            <constraint firstItem="hOq-KP-u7T" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="4oc-5c-3Md"/>
+                            <constraint firstItem="hMT-1o-0l3" firstAttribute="leading" secondItem="h2p-ZL-12A" secondAttribute="trailing" constant="16" id="64f-tT-TrU"/>
+                            <constraint firstItem="h2p-ZL-12A" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="C4N-4S-KyQ"/>
+                            <constraint firstItem="6eP-qD-myM" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="F2P-Cj-Rgf"/>
+                            <constraint firstItem="h2p-ZL-12A" firstAttribute="top" secondItem="hOq-KP-u7T" secondAttribute="bottom" constant="8" id="Gti-dg-SWt"/>
+                            <constraint firstItem="Uec-rs-zz7" firstAttribute="top" secondItem="hOq-KP-u7T" secondAttribute="bottom" constant="8" id="Ipn-wV-8NF"/>
+                            <constraint firstItem="hOq-KP-u7T" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="QDU-QJ-NYp"/>
+                            <constraint firstItem="hOq-KP-u7T" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Uuo-sx-PQj"/>
+                            <constraint firstItem="hMT-1o-0l3" firstAttribute="top" secondItem="hOq-KP-u7T" secondAttribute="bottom" constant="8" id="eg9-jh-cnW"/>
+                            <constraint firstItem="6eP-qD-myM" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="nWg-dl-TP7"/>
+                            <constraint firstItem="h2p-ZL-12A" firstAttribute="leading" secondItem="Uec-rs-zz7" secondAttribute="trailing" constant="16" id="pSD-KF-5k1"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="datePicker" destination="qkP-nK-w4b" id="Gf4-aS-MU0"/>
+                        <outlet property="datePicker" destination="hOq-KP-u7T" id="OUe-UP-CkG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

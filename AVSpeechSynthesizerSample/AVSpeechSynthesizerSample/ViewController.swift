@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  AVSpeechSynthesizerSample
 //
-//  Created by RyutaMiyamoto on 2018/06/29.
-//  Copyright © 2018 RyutaMiyamoto. All rights reserved.
+//  Created by R.miyamoto on 2019/09/16.
+//  Copyright © 2019 R.Miyamoto. All rights reserved.
 //
 
 import UIKit
@@ -19,11 +19,11 @@ class ViewController: UIViewController, AVSpeechSynthesizerDelegate {
         super.viewDidLoad()
         
         synthesizer.delegate = self
-        try? AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+        try? AVAudioSession.sharedInstance().setCategory(.playback)
     }
     
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-        self.view.endEditing(true)
+        view.endEditing(true)
     }
     
     @IBAction func tapPlayButton(_ sender: UIButton) {
@@ -38,7 +38,7 @@ class ViewController: UIViewController, AVSpeechSynthesizerDelegate {
     }
     
     @IBAction func tapStopButton(_ sender: UIButton) {
-        synthesizer.stopSpeaking(at: AVSpeechBoundary.immediate)
+        synthesizer.stopSpeaking(at: .immediate)
     }
     
     // MARK: - AVSpeechSynthesizerDelegate

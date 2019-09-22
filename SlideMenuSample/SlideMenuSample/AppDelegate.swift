@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  SlideMenuSample
 //
-//  Created by RyutaMiyamoto on 2018/06/22.
-//  Copyright © 2018 RyutaMiyamoto. All rights reserved.
+//  Created by RyutaMiyamoto on 2019/09/16.
+//  Copyright © 2019 RyutaMiyamoto. All rights reserved.
 //
 
 import UIKit
@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
     }

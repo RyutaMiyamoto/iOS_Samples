@@ -2,8 +2,8 @@
 //  CustomCell.swift
 //  UITableViewAccordionSample
 //
-//  Created by RyutaMiyamoto on 2018/06/22.
-//  Copyright © 2018 RyutaMiyamoto. All rights reserved.
+//  Created by RyutaMiyamoto on 2019/09/22.
+//  Copyright © 2019 RyutaMiyamoto. All rights reserved.
 //
 
 import UIKit

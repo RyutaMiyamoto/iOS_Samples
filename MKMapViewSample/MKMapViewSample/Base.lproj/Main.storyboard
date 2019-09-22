@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -18,17 +18,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="W5o-0d-pLh">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="cGN-Lp-pmb">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
                                 <connections>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="bdL-4c-wDk"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="vhD-G3-DGr"/>
                                 </connections>
                             </mapView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pJc-iB-NFw">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tVl-9r-hZp">
                                 <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OXX-tU-Pmu">
-                                        <rect key="frame" x="337" y="7" width="30" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bys-NM-Ql0">
+                                        <rect key="frame" x="313" y="7" width="30" height="30"/>
                                         <state key="normal">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Pin">
@@ -39,34 +39,32 @@
                                             </attributedString>
                                         </state>
                                         <connections>
-                                            <action selector="TapPinButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ebZ-jo-6kL"/>
+                                            <action selector="TapPinButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f7n-ZU-bUT"/>
                                         </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="9AI-Ao-TIC"/>
-                                    <constraint firstItem="OXX-tU-Pmu" firstAttribute="centerY" secondItem="pJc-iB-NFw" secondAttribute="centerY" id="E7k-zw-shh"/>
-                                    <constraint firstAttribute="trailing" secondItem="OXX-tU-Pmu" secondAttribute="trailing" constant="8" id="NAK-2B-qvB"/>
+                                    <constraint firstItem="Bys-NM-Ql0" firstAttribute="centerY" secondItem="tVl-9r-hZp" secondAttribute="centerY" id="gFP-7R-0am"/>
+                                    <constraint firstAttribute="height" constant="44" id="qc0-d9-ZSD"/>
+                                    <constraint firstAttribute="trailing" secondItem="Bys-NM-Ql0" secondAttribute="trailing" constant="32" id="sNJ-Lt-tya"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="pJc-iB-NFw" firstAttribute="top" secondItem="W5o-0d-pLh" secondAttribute="bottom" id="6bE-yo-De3"/>
-                            <constraint firstItem="pJc-iB-NFw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Kqx-rj-Mbt"/>
-                            <constraint firstItem="pJc-iB-NFw" firstAttribute="top" secondItem="W5o-0d-pLh" secondAttribute="bottom" id="RVp-P2-97Y"/>
-                            <constraint firstItem="pJc-iB-NFw" firstAttribute="top" secondItem="W5o-0d-pLh" secondAttribute="bottom" id="dkq-u6-bxB"/>
-                            <constraint firstItem="W5o-0d-pLh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gCd-XQ-dpr"/>
-                            <constraint firstItem="W5o-0d-pLh" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="isB-wl-u3Q"/>
-                            <constraint firstItem="W5o-0d-pLh" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="oJz-Se-ryu"/>
-                            <constraint firstItem="pJc-iB-NFw" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="qvz-w7-97X"/>
-                            <constraint firstItem="pJc-iB-NFw" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="rIv-8n-Pfu"/>
+                            <constraint firstItem="tVl-9r-hZp" firstAttribute="top" secondItem="cGN-Lp-pmb" secondAttribute="bottom" id="5ZQ-Hf-JEQ"/>
+                            <constraint firstItem="tVl-9r-hZp" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Qed-Y8-K0r"/>
+                            <constraint firstItem="cGN-Lp-pmb" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="jqG-Qp-j0h"/>
+                            <constraint firstItem="cGN-Lp-pmb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ogb-KL-HH8"/>
+                            <constraint firstItem="tVl-9r-hZp" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="rnO-Vv-9gQ"/>
+                            <constraint firstItem="cGN-Lp-pmb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="snS-IF-Jih"/>
+                            <constraint firstItem="tVl-9r-hZp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="x7n-oO-xdV"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="mapView" destination="W5o-0d-pLh" id="gQ0-KM-de9"/>
+                        <outlet property="mapView" destination="cGN-Lp-pmb" id="uky-9C-bYl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
