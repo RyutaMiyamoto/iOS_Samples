@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CustomCell" id="KGk-i7-Jjw" customClass="CustomCell" customModule="UITableViewParallaxSample" customModuleProvider="target">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="CustomCell" customModule="UITableViewParallaxSample" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
                 <rect key="frame" x="0.0" y="0.0" width="320" height="199.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Aue-6Y-vUX">
-                        <rect key="frame" x="0.0" y="10" width="320" height="179"/>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tVs-Pu-fxg">
+                        <rect key="frame" x="0.0" y="10" width="320" height="179.5"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="sym-xE-JsV">
-                                <rect key="frame" x="0.0" y="-50" width="320" height="279"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="Sjq-Ug-i4Z">
+                                <rect key="frame" x="0.0" y="-50" width="320" height="279.5"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="sym-xE-JsV" firstAttribute="top" secondItem="Aue-6Y-vUX" secondAttribute="top" constant="-50" id="8lt-an-3tL"/>
-                            <constraint firstAttribute="trailing" secondItem="sym-xE-JsV" secondAttribute="trailing" id="P7K-9A-eih"/>
-                            <constraint firstAttribute="bottom" secondItem="sym-xE-JsV" secondAttribute="bottom" constant="-50" id="WKp-ju-bTH"/>
-                            <constraint firstItem="sym-xE-JsV" firstAttribute="leading" secondItem="Aue-6Y-vUX" secondAttribute="leading" id="eGt-Cs-31P"/>
-                            <constraint firstAttribute="height" priority="999" constant="180" id="kQh-x5-e7U"/>
+                            <constraint firstItem="Sjq-Ug-i4Z" firstAttribute="leading" secondItem="tVs-Pu-fxg" secondAttribute="leading" id="4Ht-8m-KHC"/>
+                            <constraint firstAttribute="height" priority="999" constant="180" id="ROm-Ds-d1a"/>
+                            <constraint firstAttribute="trailing" secondItem="Sjq-Ug-i4Z" secondAttribute="trailing" id="UoI-ZG-O6i"/>
+                            <constraint firstAttribute="bottom" secondItem="Sjq-Ug-i4Z" secondAttribute="bottom" constant="-50" id="Vgl-bY-R0d"/>
+                            <constraint firstItem="Sjq-Ug-i4Z" firstAttribute="top" secondItem="tVs-Pu-fxg" secondAttribute="top" constant="-50" id="gb6-eU-aTr"/>
                         </constraints>
                     </view>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="Aue-6Y-vUX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="74X-wy-L6N"/>
-                    <constraint firstAttribute="trailing" secondItem="Aue-6Y-vUX" secondAttribute="trailing" id="WNh-Sh-2ss"/>
-                    <constraint firstAttribute="bottom" secondItem="Aue-6Y-vUX" secondAttribute="bottom" constant="10" id="YZ7-IQ-Wto"/>
-                    <constraint firstItem="Aue-6Y-vUX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="uOF-MT-f3Q"/>
+                    <constraint firstAttribute="trailing" secondItem="tVs-Pu-fxg" secondAttribute="trailing" id="3fR-aw-F5g"/>
+                    <constraint firstItem="tVs-Pu-fxg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="6Oz-Cc-jGW"/>
+                    <constraint firstAttribute="bottom" secondItem="tVs-Pu-fxg" secondAttribute="bottom" constant="10" id="89b-Hy-x5c"/>
+                    <constraint firstItem="tVs-Pu-fxg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="9RS-ZJ-ohn"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="parallaxImageView" destination="sym-xE-JsV" id="pXQ-dk-dqF"/>
+                <outlet property="parallaxImageView" destination="Sjq-Ug-i4Z" id="jmR-fW-gGv"/>
             </connections>
         </tableViewCell>
     </objects>
