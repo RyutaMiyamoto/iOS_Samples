@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  UITableViewTimelineSample
 //
-//  Created by RyutaMiyamoto on 2018/06/22.
-//  Copyright © 2018 RyutaMiyamoto. All rights reserved.
+//  Created by RyutaMiyamoto on 2019/09/22.
+//  Copyright © 2019 RyutaMiyamoto. All rights reserved.
 //
 
 import UIKit
@@ -38,14 +38,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     // MARK: - UITableViewDelegate
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return UITableViewAutomaticDimension
+        return UITableView.automaticDimension
     }
     
     func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
         if let height: CGFloat = heightAtIndexPath[indexPath] {
             return height
         } else {
-            return UITableViewAutomaticDimension
+            return UITableView.automaticDimension
         }
     }
     

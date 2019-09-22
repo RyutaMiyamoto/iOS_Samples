@@ -7,64 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C1F8A1BD20DCA9DC003329FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F8A1BC20DCA9DC003329FE /* AppDelegate.swift */; };
-		C1F8A1BF20DCA9DC003329FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F8A1BE20DCA9DC003329FE /* ViewController.swift */; };
-		C1F8A1C220DCA9DC003329FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F8A1C020DCA9DC003329FE /* Main.storyboard */; };
-		C1F8A1C420DCA9DD003329FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1F8A1C320DCA9DD003329FE /* Assets.xcassets */; };
-		C1F8A1C720DCA9DD003329FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F8A1C520DCA9DD003329FE /* LaunchScreen.storyboard */; };
-		C1F8A1D220DCA9DD003329FE /* UIImagePickerControllerSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F8A1D120DCA9DD003329FE /* UIImagePickerControllerSampleTests.swift */; };
-		C1F8A1DD20DCA9DD003329FE /* UIImagePickerControllerSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F8A1DC20DCA9DD003329FE /* UIImagePickerControllerSampleUITests.swift */; };
+		C13474EF2337AD8200C2E6BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13474EE2337AD8200C2E6BE /* AppDelegate.swift */; };
+		C13474F12337AD8200C2E6BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13474F02337AD8200C2E6BE /* ViewController.swift */; };
+		C13474F42337AD8200C2E6BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C13474F22337AD8200C2E6BE /* Main.storyboard */; };
+		C13474F62337AD8300C2E6BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C13474F52337AD8300C2E6BE /* Assets.xcassets */; };
+		C13474F92337AD8300C2E6BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C13474F72337AD8300C2E6BE /* LaunchScreen.storyboard */; };
+		C13475042337AD8300C2E6BE /* UIImagePickerControllerSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13475032337AD8300C2E6BE /* UIImagePickerControllerSampleTests.swift */; };
+		C134750F2337AD8300C2E6BE /* UIImagePickerControllerSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C134750E2337AD8300C2E6BE /* UIImagePickerControllerSampleUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C1F8A1CE20DCA9DD003329FE /* PBXContainerItemProxy */ = {
+		C13475002337AD8300C2E6BE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C1F8A1B120DCA9DC003329FE /* Project object */;
+			containerPortal = C13474E32337AD8200C2E6BE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C1F8A1B820DCA9DC003329FE;
+			remoteGlobalIDString = C13474EA2337AD8200C2E6BE;
 			remoteInfo = UIImagePickerControllerSample;
 		};
-		C1F8A1D920DCA9DD003329FE /* PBXContainerItemProxy */ = {
+		C134750B2337AD8300C2E6BE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C1F8A1B120DCA9DC003329FE /* Project object */;
+			containerPortal = C13474E32337AD8200C2E6BE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C1F8A1B820DCA9DC003329FE;
+			remoteGlobalIDString = C13474EA2337AD8200C2E6BE;
 			remoteInfo = UIImagePickerControllerSample;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C1F8A1B920DCA9DC003329FE /* UIImagePickerControllerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIImagePickerControllerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1F8A1BC20DCA9DC003329FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C1F8A1BE20DCA9DC003329FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C1F8A1C120DCA9DC003329FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C1F8A1C320DCA9DD003329FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C1F8A1C620DCA9DD003329FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C1F8A1C820DCA9DD003329FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C1F8A1CD20DCA9DD003329FE /* UIImagePickerControllerSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIImagePickerControllerSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1F8A1D120DCA9DD003329FE /* UIImagePickerControllerSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImagePickerControllerSampleTests.swift; sourceTree = "<group>"; };
-		C1F8A1D320DCA9DD003329FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C1F8A1D820DCA9DD003329FE /* UIImagePickerControllerSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIImagePickerControllerSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1F8A1DC20DCA9DD003329FE /* UIImagePickerControllerSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImagePickerControllerSampleUITests.swift; sourceTree = "<group>"; };
-		C1F8A1DE20DCA9DD003329FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C13474EB2337AD8200C2E6BE /* UIImagePickerControllerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIImagePickerControllerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C13474EE2337AD8200C2E6BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C13474F02337AD8200C2E6BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C13474F32337AD8200C2E6BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C13474F52337AD8300C2E6BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C13474F82337AD8300C2E6BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C13474FA2337AD8300C2E6BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C13474FF2337AD8300C2E6BE /* UIImagePickerControllerSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIImagePickerControllerSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C13475032337AD8300C2E6BE /* UIImagePickerControllerSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImagePickerControllerSampleTests.swift; sourceTree = "<group>"; };
+		C13475052337AD8300C2E6BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C134750A2337AD8300C2E6BE /* UIImagePickerControllerSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIImagePickerControllerSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C134750E2337AD8300C2E6BE /* UIImagePickerControllerSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImagePickerControllerSampleUITests.swift; sourceTree = "<group>"; };
+		C13475102337AD8300C2E6BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C1F8A1B620DCA9DC003329FE /* Frameworks */ = {
+		C13474E82337AD8200C2E6BE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1F8A1CA20DCA9DD003329FE /* Frameworks */ = {
+		C13474FC2337AD8300C2E6BE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1F8A1D520DCA9DD003329FE /* Frameworks */ = {
+		C13475072337AD8300C2E6BE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,53 +74,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C1F8A1B020DCA9DC003329FE = {
+		C13474E22337AD8200C2E6BE = {
 			isa = PBXGroup;
 			children = (
-				C1F8A1BB20DCA9DC003329FE /* UIImagePickerControllerSample */,
-				C1F8A1D020DCA9DD003329FE /* UIImagePickerControllerSampleTests */,
-				C1F8A1DB20DCA9DD003329FE /* UIImagePickerControllerSampleUITests */,
-				C1F8A1BA20DCA9DC003329FE /* Products */,
+				C13474ED2337AD8200C2E6BE /* UIImagePickerControllerSample */,
+				C13475022337AD8300C2E6BE /* UIImagePickerControllerSampleTests */,
+				C134750D2337AD8300C2E6BE /* UIImagePickerControllerSampleUITests */,
+				C13474EC2337AD8200C2E6BE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C1F8A1BA20DCA9DC003329FE /* Products */ = {
+		C13474EC2337AD8200C2E6BE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C1F8A1B920DCA9DC003329FE /* UIImagePickerControllerSample.app */,
-				C1F8A1CD20DCA9DD003329FE /* UIImagePickerControllerSampleTests.xctest */,
-				C1F8A1D820DCA9DD003329FE /* UIImagePickerControllerSampleUITests.xctest */,
+				C13474EB2337AD8200C2E6BE /* UIImagePickerControllerSample.app */,
+				C13474FF2337AD8300C2E6BE /* UIImagePickerControllerSampleTests.xctest */,
+				C134750A2337AD8300C2E6BE /* UIImagePickerControllerSampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C1F8A1BB20DCA9DC003329FE /* UIImagePickerControllerSample */ = {
+		C13474ED2337AD8200C2E6BE /* UIImagePickerControllerSample */ = {
 			isa = PBXGroup;
 			children = (
-				C1F8A1BC20DCA9DC003329FE /* AppDelegate.swift */,
-				C1F8A1BE20DCA9DC003329FE /* ViewController.swift */,
-				C1F8A1C020DCA9DC003329FE /* Main.storyboard */,
-				C1F8A1C320DCA9DD003329FE /* Assets.xcassets */,
-				C1F8A1C520DCA9DD003329FE /* LaunchScreen.storyboard */,
-				C1F8A1C820DCA9DD003329FE /* Info.plist */,
+				C13474EE2337AD8200C2E6BE /* AppDelegate.swift */,
+				C13474F02337AD8200C2E6BE /* ViewController.swift */,
+				C13474F22337AD8200C2E6BE /* Main.storyboard */,
+				C13474F52337AD8300C2E6BE /* Assets.xcassets */,
+				C13474F72337AD8300C2E6BE /* LaunchScreen.storyboard */,
+				C13474FA2337AD8300C2E6BE /* Info.plist */,
 			);
 			path = UIImagePickerControllerSample;
 			sourceTree = "<group>";
 		};
-		C1F8A1D020DCA9DD003329FE /* UIImagePickerControllerSampleTests */ = {
+		C13475022337AD8300C2E6BE /* UIImagePickerControllerSampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				C1F8A1D120DCA9DD003329FE /* UIImagePickerControllerSampleTests.swift */,
-				C1F8A1D320DCA9DD003329FE /* Info.plist */,
+				C13475032337AD8300C2E6BE /* UIImagePickerControllerSampleTests.swift */,
+				C13475052337AD8300C2E6BE /* Info.plist */,
 			);
 			path = UIImagePickerControllerSampleTests;
 			sourceTree = "<group>";
 		};
-		C1F8A1DB20DCA9DD003329FE /* UIImagePickerControllerSampleUITests */ = {
+		C134750D2337AD8300C2E6BE /* UIImagePickerControllerSampleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				C1F8A1DC20DCA9DD003329FE /* UIImagePickerControllerSampleUITests.swift */,
-				C1F8A1DE20DCA9DD003329FE /* Info.plist */,
+				C134750E2337AD8300C2E6BE /* UIImagePickerControllerSampleUITests.swift */,
+				C13475102337AD8300C2E6BE /* Info.plist */,
 			);
 			path = UIImagePickerControllerSampleUITests;
 			sourceTree = "<group>";
@@ -128,13 +128,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C1F8A1B820DCA9DC003329FE /* UIImagePickerControllerSample */ = {
+		C13474EA2337AD8200C2E6BE /* UIImagePickerControllerSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C1F8A1E120DCA9DD003329FE /* Build configuration list for PBXNativeTarget "UIImagePickerControllerSample" */;
+			buildConfigurationList = C13475132337AD8300C2E6BE /* Build configuration list for PBXNativeTarget "UIImagePickerControllerSample" */;
 			buildPhases = (
-				C1F8A1B520DCA9DC003329FE /* Sources */,
-				C1F8A1B620DCA9DC003329FE /* Frameworks */,
-				C1F8A1B720DCA9DC003329FE /* Resources */,
+				C13474E72337AD8200C2E6BE /* Sources */,
+				C13474E82337AD8200C2E6BE /* Frameworks */,
+				C13474E92337AD8200C2E6BE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -142,69 +142,69 @@
 			);
 			name = UIImagePickerControllerSample;
 			productName = UIImagePickerControllerSample;
-			productReference = C1F8A1B920DCA9DC003329FE /* UIImagePickerControllerSample.app */;
+			productReference = C13474EB2337AD8200C2E6BE /* UIImagePickerControllerSample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C1F8A1CC20DCA9DD003329FE /* UIImagePickerControllerSampleTests */ = {
+		C13474FE2337AD8300C2E6BE /* UIImagePickerControllerSampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C1F8A1E420DCA9DD003329FE /* Build configuration list for PBXNativeTarget "UIImagePickerControllerSampleTests" */;
+			buildConfigurationList = C13475162337AD8300C2E6BE /* Build configuration list for PBXNativeTarget "UIImagePickerControllerSampleTests" */;
 			buildPhases = (
-				C1F8A1C920DCA9DD003329FE /* Sources */,
-				C1F8A1CA20DCA9DD003329FE /* Frameworks */,
-				C1F8A1CB20DCA9DD003329FE /* Resources */,
+				C13474FB2337AD8300C2E6BE /* Sources */,
+				C13474FC2337AD8300C2E6BE /* Frameworks */,
+				C13474FD2337AD8300C2E6BE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C1F8A1CF20DCA9DD003329FE /* PBXTargetDependency */,
+				C13475012337AD8300C2E6BE /* PBXTargetDependency */,
 			);
 			name = UIImagePickerControllerSampleTests;
 			productName = UIImagePickerControllerSampleTests;
-			productReference = C1F8A1CD20DCA9DD003329FE /* UIImagePickerControllerSampleTests.xctest */;
+			productReference = C13474FF2337AD8300C2E6BE /* UIImagePickerControllerSampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C1F8A1D720DCA9DD003329FE /* UIImagePickerControllerSampleUITests */ = {
+		C13475092337AD8300C2E6BE /* UIImagePickerControllerSampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C1F8A1E720DCA9DD003329FE /* Build configuration list for PBXNativeTarget "UIImagePickerControllerSampleUITests" */;
+			buildConfigurationList = C13475192337AD8300C2E6BE /* Build configuration list for PBXNativeTarget "UIImagePickerControllerSampleUITests" */;
 			buildPhases = (
-				C1F8A1D420DCA9DD003329FE /* Sources */,
-				C1F8A1D520DCA9DD003329FE /* Frameworks */,
-				C1F8A1D620DCA9DD003329FE /* Resources */,
+				C13475062337AD8300C2E6BE /* Sources */,
+				C13475072337AD8300C2E6BE /* Frameworks */,
+				C13475082337AD8300C2E6BE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C1F8A1DA20DCA9DD003329FE /* PBXTargetDependency */,
+				C134750C2337AD8300C2E6BE /* PBXTargetDependency */,
 			);
 			name = UIImagePickerControllerSampleUITests;
 			productName = UIImagePickerControllerSampleUITests;
-			productReference = C1F8A1D820DCA9DD003329FE /* UIImagePickerControllerSampleUITests.xctest */;
+			productReference = C134750A2337AD8300C2E6BE /* UIImagePickerControllerSampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C1F8A1B120DCA9DC003329FE /* Project object */ = {
+		C13474E32337AD8200C2E6BE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0940;
-				LastUpgradeCheck = 0940;
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = RyutaMiyamoto;
 				TargetAttributes = {
-					C1F8A1B820DCA9DC003329FE = {
-						CreatedOnToolsVersion = 9.4.1;
+					C13474EA2337AD8200C2E6BE = {
+						CreatedOnToolsVersion = 10.3;
 					};
-					C1F8A1CC20DCA9DD003329FE = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = C1F8A1B820DCA9DC003329FE;
+					C13474FE2337AD8300C2E6BE = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = C13474EA2337AD8200C2E6BE;
 					};
-					C1F8A1D720DCA9DD003329FE = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = C1F8A1B820DCA9DC003329FE;
+					C13475092337AD8300C2E6BE = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = C13474EA2337AD8200C2E6BE;
 					};
 				};
 			};
-			buildConfigurationList = C1F8A1B420DCA9DC003329FE /* Build configuration list for PBXProject "UIImagePickerControllerSample" */;
+			buildConfigurationList = C13474E62337AD8200C2E6BE /* Build configuration list for PBXProject "UIImagePickerControllerSample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -212,37 +212,37 @@
 				en,
 				Base,
 			);
-			mainGroup = C1F8A1B020DCA9DC003329FE;
-			productRefGroup = C1F8A1BA20DCA9DC003329FE /* Products */;
+			mainGroup = C13474E22337AD8200C2E6BE;
+			productRefGroup = C13474EC2337AD8200C2E6BE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C1F8A1B820DCA9DC003329FE /* UIImagePickerControllerSample */,
-				C1F8A1CC20DCA9DD003329FE /* UIImagePickerControllerSampleTests */,
-				C1F8A1D720DCA9DD003329FE /* UIImagePickerControllerSampleUITests */,
+				C13474EA2337AD8200C2E6BE /* UIImagePickerControllerSample */,
+				C13474FE2337AD8300C2E6BE /* UIImagePickerControllerSampleTests */,
+				C13475092337AD8300C2E6BE /* UIImagePickerControllerSampleUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C1F8A1B720DCA9DC003329FE /* Resources */ = {
+		C13474E92337AD8200C2E6BE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1F8A1C720DCA9DD003329FE /* LaunchScreen.storyboard in Resources */,
-				C1F8A1C420DCA9DD003329FE /* Assets.xcassets in Resources */,
-				C1F8A1C220DCA9DC003329FE /* Main.storyboard in Resources */,
+				C13474F92337AD8300C2E6BE /* LaunchScreen.storyboard in Resources */,
+				C13474F62337AD8300C2E6BE /* Assets.xcassets in Resources */,
+				C13474F42337AD8200C2E6BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1F8A1CB20DCA9DD003329FE /* Resources */ = {
+		C13474FD2337AD8300C2E6BE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1F8A1D620DCA9DD003329FE /* Resources */ = {
+		C13475082337AD8300C2E6BE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -252,59 +252,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C1F8A1B520DCA9DC003329FE /* Sources */ = {
+		C13474E72337AD8200C2E6BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1F8A1BF20DCA9DC003329FE /* ViewController.swift in Sources */,
-				C1F8A1BD20DCA9DC003329FE /* AppDelegate.swift in Sources */,
+				C13474F12337AD8200C2E6BE /* ViewController.swift in Sources */,
+				C13474EF2337AD8200C2E6BE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1F8A1C920DCA9DD003329FE /* Sources */ = {
+		C13474FB2337AD8300C2E6BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1F8A1D220DCA9DD003329FE /* UIImagePickerControllerSampleTests.swift in Sources */,
+				C13475042337AD8300C2E6BE /* UIImagePickerControllerSampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1F8A1D420DCA9DD003329FE /* Sources */ = {
+		C13475062337AD8300C2E6BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1F8A1DD20DCA9DD003329FE /* UIImagePickerControllerSampleUITests.swift in Sources */,
+				C134750F2337AD8300C2E6BE /* UIImagePickerControllerSampleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C1F8A1CF20DCA9DD003329FE /* PBXTargetDependency */ = {
+		C13475012337AD8300C2E6BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C1F8A1B820DCA9DC003329FE /* UIImagePickerControllerSample */;
-			targetProxy = C1F8A1CE20DCA9DD003329FE /* PBXContainerItemProxy */;
+			target = C13474EA2337AD8200C2E6BE /* UIImagePickerControllerSample */;
+			targetProxy = C13475002337AD8300C2E6BE /* PBXContainerItemProxy */;
 		};
-		C1F8A1DA20DCA9DD003329FE /* PBXTargetDependency */ = {
+		C134750C2337AD8300C2E6BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C1F8A1B820DCA9DC003329FE /* UIImagePickerControllerSample */;
-			targetProxy = C1F8A1D920DCA9DD003329FE /* PBXContainerItemProxy */;
+			target = C13474EA2337AD8200C2E6BE /* UIImagePickerControllerSample */;
+			targetProxy = C134750B2337AD8300C2E6BE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C1F8A1C020DCA9DC003329FE /* Main.storyboard */ = {
+		C13474F22337AD8200C2E6BE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C1F8A1C120DCA9DC003329FE /* Base */,
+				C13474F32337AD8200C2E6BE /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C1F8A1C520DCA9DD003329FE /* LaunchScreen.storyboard */ = {
+		C13474F72337AD8300C2E6BE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C1F8A1C620DCA9DD003329FE /* Base */,
+				C13474F82337AD8300C2E6BE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -312,7 +312,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C1F8A1DF20DCA9DD003329FE /* Debug */ = {
+		C13475112337AD8300C2E6BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -363,8 +363,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -372,7 +373,7 @@
 			};
 			name = Debug;
 		};
-		C1F8A1E020DCA9DD003329FE /* Release */ = {
+		C13475122337AD8300C2E6BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -417,8 +418,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -426,115 +428,119 @@
 			};
 			name = Release;
 		};
-		C1F8A1E220DCA9DD003329FE /* Debug */ = {
+		C13475142337AD8300C2E6BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5T96DT99L;
 				INFOPLIST_FILE = UIImagePickerControllerSample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.pfslink.mltest.UIImagePickerControllerSample;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.pfslink.UIImagePickerControllerSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		C1F8A1E320DCA9DD003329FE /* Release */ = {
+		C13475152337AD8300C2E6BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5T96DT99L;
 				INFOPLIST_FILE = UIImagePickerControllerSample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.pfslink.mltest.UIImagePickerControllerSample;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.pfslink.UIImagePickerControllerSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		C1F8A1E520DCA9DD003329FE /* Debug */ = {
+		C13475172337AD8300C2E6BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5T96DT99L;
 				INFOPLIST_FILE = UIImagePickerControllerSampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.pfslink.mltest.UIImagePickerControllerSampleTests;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.pfslink.UIImagePickerControllerSampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIImagePickerControllerSample.app/UIImagePickerControllerSample";
 			};
 			name = Debug;
 		};
-		C1F8A1E620DCA9DD003329FE /* Release */ = {
+		C13475182337AD8300C2E6BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5T96DT99L;
 				INFOPLIST_FILE = UIImagePickerControllerSampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.pfslink.mltest.UIImagePickerControllerSampleTests;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.pfslink.UIImagePickerControllerSampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIImagePickerControllerSample.app/UIImagePickerControllerSample";
 			};
 			name = Release;
 		};
-		C1F8A1E820DCA9DD003329FE /* Debug */ = {
+		C134751A2337AD8300C2E6BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5T96DT99L;
 				INFOPLIST_FILE = UIImagePickerControllerSampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.pfslink.mltest.UIImagePickerControllerSampleUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.pfslink.UIImagePickerControllerSampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = UIImagePickerControllerSample;
 			};
 			name = Debug;
 		};
-		C1F8A1E920DCA9DD003329FE /* Release */ = {
+		C134751B2337AD8300C2E6BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5T96DT99L;
 				INFOPLIST_FILE = UIImagePickerControllerSampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.pfslink.mltest.UIImagePickerControllerSampleUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.pfslink.UIImagePickerControllerSampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = UIImagePickerControllerSample;
 			};
@@ -543,43 +549,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C1F8A1B420DCA9DC003329FE /* Build configuration list for PBXProject "UIImagePickerControllerSample" */ = {
+		C13474E62337AD8200C2E6BE /* Build configuration list for PBXProject "UIImagePickerControllerSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1F8A1DF20DCA9DD003329FE /* Debug */,
-				C1F8A1E020DCA9DD003329FE /* Release */,
+				C13475112337AD8300C2E6BE /* Debug */,
+				C13475122337AD8300C2E6BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C1F8A1E120DCA9DD003329FE /* Build configuration list for PBXNativeTarget "UIImagePickerControllerSample" */ = {
+		C13475132337AD8300C2E6BE /* Build configuration list for PBXNativeTarget "UIImagePickerControllerSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1F8A1E220DCA9DD003329FE /* Debug */,
-				C1F8A1E320DCA9DD003329FE /* Release */,
+				C13475142337AD8300C2E6BE /* Debug */,
+				C13475152337AD8300C2E6BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C1F8A1E420DCA9DD003329FE /* Build configuration list for PBXNativeTarget "UIImagePickerControllerSampleTests" */ = {
+		C13475162337AD8300C2E6BE /* Build configuration list for PBXNativeTarget "UIImagePickerControllerSampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1F8A1E520DCA9DD003329FE /* Debug */,
-				C1F8A1E620DCA9DD003329FE /* Release */,
+				C13475172337AD8300C2E6BE /* Debug */,
+				C13475182337AD8300C2E6BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C1F8A1E720DCA9DD003329FE /* Build configuration list for PBXNativeTarget "UIImagePickerControllerSampleUITests" */ = {
+		C13475192337AD8300C2E6BE /* Build configuration list for PBXNativeTarget "UIImagePickerControllerSampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1F8A1E820DCA9DD003329FE /* Debug */,
-				C1F8A1E920DCA9DD003329FE /* Release */,
+				C134751A2337AD8300C2E6BE /* Debug */,
+				C134751B2337AD8300C2E6BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C1F8A1B120DCA9DC003329FE /* Project object */;
+	rootObject = C13474E32337AD8200C2E6BE /* Project object */;
 }

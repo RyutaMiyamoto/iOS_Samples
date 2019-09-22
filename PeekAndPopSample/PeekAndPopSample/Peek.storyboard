@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="UD7-ul-7Lb">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYI-xk-utj">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="4GH-Fq-GPu">
+        <!--Peek View Controller-->
+        <scene sceneID="71y-pL-u8z">
             <objects>
-                <viewController id="UD7-ul-7Lb" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="hNG-wD-v4a">
+                <viewController id="BYI-xk-utj" customClass="PeekViewController" customModule="PeekAndPopSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ug2-vs-evr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PeekViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="687-cA-S5h">
-                                <rect key="frame" x="102" y="321" width="170.5" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PeekViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7u8-9x-Ulw">
+                                <rect key="frame" x="102.5" y="321.5" width="170.5" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -27,15 +27,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="687-cA-S5h" firstAttribute="centerY" secondItem="hNG-wD-v4a" secondAttribute="centerY" id="WQU-Cc-zdG"/>
-                            <constraint firstItem="687-cA-S5h" firstAttribute="centerX" secondItem="hNG-wD-v4a" secondAttribute="centerX" id="teZ-5A-c7w"/>
+                            <constraint firstItem="7u8-9x-Ulw" firstAttribute="centerY" secondItem="ug2-vs-evr" secondAttribute="centerY" id="rx0-Ii-oYP"/>
+                            <constraint firstItem="7u8-9x-Ulw" firstAttribute="centerX" secondItem="ug2-vs-evr" secondAttribute="centerX" id="xJq-A9-sc1"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="Lg3-Lr-Law"/>
+                        <viewLayoutGuide key="safeArea" id="hD6-C7-ULC"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vfo-s6-tQ8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hjy-M4-EX6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="110" y="200"/>
+            <point key="canvasLocation" x="66" y="89"/>
         </scene>
     </scenes>
 </document>

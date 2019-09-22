@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,23 +19,23 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zyX-ll-TBN">
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FUu-lB-KR1">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                         <constraints>
-                            <constraint firstAttribute="height" priority="999" constant="44" id="uoD-SZ-w7J"/>
+                            <constraint firstAttribute="height" priority="999" constant="44" id="Sx0-Ua-vMq"/>
                         </constraints>
                     </view>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="bottom" secondItem="zyX-ll-TBN" secondAttribute="bottom" id="37y-Te-9u6"/>
-                    <constraint firstItem="zyX-ll-TBN" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="K9B-BP-mrR"/>
-                    <constraint firstItem="zyX-ll-TBN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="N3a-Ey-Mag"/>
-                    <constraint firstAttribute="trailing" secondItem="zyX-ll-TBN" secondAttribute="trailing" id="XSg-Dg-QKr"/>
+                    <constraint firstItem="FUu-lB-KR1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="OWp-VI-eT1"/>
+                    <constraint firstAttribute="trailing" secondItem="FUu-lB-KR1" secondAttribute="trailing" id="W7p-eK-7UP"/>
+                    <constraint firstItem="FUu-lB-KR1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="jmv-36-NUz"/>
+                    <constraint firstAttribute="bottom" secondItem="FUu-lB-KR1" secondAttribute="bottom" id="sHP-ge-Wbh"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="cellHeight" destination="uoD-SZ-w7J" id="Gfe-3L-ytT"/>
+                <outlet property="cellHeight" destination="Sx0-Ua-vMq" id="l6a-Op-OQr"/>
             </connections>
         </tableViewCell>
     </objects>

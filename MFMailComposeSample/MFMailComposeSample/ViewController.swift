@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  MFMailComposeSample
 //
-//  Created by RyutaMiyamoto on 2018/06/22.
-//  Copyright © 2018 RyutaMiyamoto. All rights reserved.
+//  Created by RyutaMiyamoto on 2019/09/16.
+//  Copyright © 2019 RyutaMiyamoto. All rights reserved.
 //
 
 import UIKit
@@ -35,7 +35,10 @@ class ViewController: UIViewController, MFMailComposeViewControllerDelegate {
             print("sent")
         case .failed:
             print("failed")
+        @unknown default:
+            print("unknown")
         }
         self.dismiss(animated: true, completion: nil)
+
     }
 }

@@ -2,8 +2,8 @@
 //  CustomCell.swift
 //  DelegateSample
 //
-//  Created by RyutaMiyamoto on 2018/06/22.
-//  Copyright © 2018 RyutaMiyamoto. All rights reserved.
+//  Created by R.miyamoto on 2019/09/16.
+//  Copyright © 2019 R.Miyamoto. All rights reserved.
 //
 
 import UIKit
@@ -13,7 +13,7 @@ protocol CustomCellDelegate: class {
 }
 
 class CustomCell: UITableViewCell {
-    
+
     weak var delegate: CustomCellDelegate?
     
     @IBOutlet weak var label: UILabel!

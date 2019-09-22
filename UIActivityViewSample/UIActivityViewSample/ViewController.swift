@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  UIActivityViewSample
 //
-//  Created by RyutaMiyamoto on 2018/06/22.
-//  Copyright © 2018 RyutaMiyamoto. All rights reserved.
+//  Created by RyutaMiyamoto on 2019/09/22.
+//  Copyright © 2019 RyutaMiyamoto. All rights reserved.
 //
 
 import UIKit
@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         activity.url = URL(string: "https://www.google.co.jp/")
         let applicationActivities: [UIActivity] = [activity]
         let activityViewController = UIActivityViewController(activityItems: activityItems, applicationActivities: applicationActivities)
-        let excludedActivityTypes: [UIActivityType] = [.saveToCameraRoll, .openInIBooks]
+        let excludedActivityTypes: [UIActivity.ActivityType] = [.saveToCameraRoll, .openInIBooks]
         activityViewController.excludedActivityTypes = excludedActivityTypes
         
         present(activityViewController, animated: true, completion: nil)
@@ -27,8 +27,8 @@ class CustomActivity: UIActivity {
     
     var url: URL?
     
-    override var activityType: UIActivityType? {
-        return UIActivityType(rawValue: "SafariOpen")
+    override var activityType: UIActivity.ActivityType? {
+        return UIActivity.ActivityType(rawValue: "SafariOpen")
     }
     
     override var activityTitle: String? {

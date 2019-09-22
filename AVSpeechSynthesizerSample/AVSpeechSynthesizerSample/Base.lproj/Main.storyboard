@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -18,7 +18,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5LK-4V-f8r">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="本日の東京の天気は、明け方から夜にかけては晴れのち曇り。深夜ごろから雨が降るでしょう。" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HWx-rZ-s4Z">
+                                <rect key="frame" x="16" y="36" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hDn-xM-uyJ">
                                 <rect key="frame" x="329" y="617" width="30" height="30"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
@@ -31,16 +37,10 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="tapPlayButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tef-e1-e2D"/>
+                                    <action selector="tapPlayButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7WP-oR-FFO"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="本日の東京の天気は、明け方から夜にかけては晴れのち曇り。深夜ごろから雨が降るでしょう。" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xMB-Lp-lFa">
-                                <rect key="frame" x="16" y="36" width="343" height="30"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RZF-Pp-9hy">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NzS-fm-6hA">
                                 <rect key="frame" x="277" y="617" width="32" height="30"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
@@ -52,24 +52,24 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="tapStopButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QoA-dh-itk"/>
+                                    <action selector="tapStopButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0x0-sz-hMK"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5LK-4V-f8r" secondAttribute="bottom" constant="20" id="21f-EV-314"/>
-                            <constraint firstItem="xMB-Lp-lFa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Lyn-Ab-whw"/>
-                            <constraint firstItem="5LK-4V-f8r" firstAttribute="leading" secondItem="RZF-Pp-9hy" secondAttribute="trailing" constant="20" id="UGU-c9-HpC"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5LK-4V-f8r" secondAttribute="trailing" constant="16" id="Wwf-JR-s92"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xMB-Lp-lFa" secondAttribute="trailing" constant="16" id="XO1-GG-KNy"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="RZF-Pp-9hy" secondAttribute="bottom" constant="20" id="d0g-z7-Zan"/>
-                            <constraint firstItem="xMB-Lp-lFa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="m5z-l6-ZsW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HWx-rZ-s4Z" secondAttribute="trailing" constant="16" id="5C0-nS-B0R"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hDn-xM-uyJ" secondAttribute="trailing" constant="16" id="68q-RD-zbM"/>
+                            <constraint firstItem="HWx-rZ-s4Z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="EPT-ef-9k0"/>
+                            <constraint firstItem="HWx-rZ-s4Z" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="HVU-L5-kzS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="NzS-fm-6hA" secondAttribute="bottom" constant="20" id="Joc-8A-W55"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hDn-xM-uyJ" secondAttribute="bottom" constant="20" id="KXX-Vr-HUu"/>
+                            <constraint firstItem="hDn-xM-uyJ" firstAttribute="leading" secondItem="NzS-fm-6hA" secondAttribute="trailing" constant="20" id="Q8H-CK-2Q3"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="textField" destination="xMB-Lp-lFa" id="WcJ-Nb-IGs"/>
+                        <outlet property="textField" destination="HWx-rZ-s4Z" id="WTg-Gj-qEc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
